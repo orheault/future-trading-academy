@@ -186,3 +186,43 @@ For each component, state:
 - one question you would ask before opening an account.
 
 ### Trader
+What it does: 
+Trader are participant that trade, enter position long or short, in an exchange. They trade money in exchange of a product.
+
+what it does not guarantee:
+Trader are not always humain in the market. Some traders are algorithmes based.
+
+one question you would ask before opening an account:
+What is the mental load of being a trader on the day to day. What are the typical work hours during the day.
+
+### Broker/Introducing Broker
+What it does: Brokers are entities that connect the trader to the FCM through trading software. It also provide trading software.
+What it does not guarantee: Brokers are not always certified or regulated. The trader must choose a regulated broker to ensure proper fund transit to FCM, payout, etc.
+One question to ask before opening an account: what are the legetimate broker, well regulated, in Canada that allows trading Futurs and commodities.
+
+### FCM
+What it does: FCM are future commission merchant. It hold trader funds, record position, collects marging and connect the trading software to the clearing system.
+What it does not guarantee: trader being profitable or not.
+Question: What are the fatest executor FCM and they support which brokers?
+
+### Exchange
+What it does: the exchange is the place where futures contract are listed and traded. The exchange, CME, standardized the contract, rules. The exchange execute the trade.
+What it does not guarantee: The exchange does not guarantee the price of the contract that the trader want.
+question: What are the exchange specification like opening hours, where can i get contract information or product information?
+
+### Clearinghouse
+What it does: it act as a middle man to handle money between buyer and seller
+What is  a questeion: what is the clearinghouse for ES contract?
+ 
+### Platform / Data service
+What it does:the platform is the trading software, while the data service provides market information like price, volume, etc.
+What it does not guarantee: to hold the trader fund.
+Question to ask: what the broker can provide me?
+
+### Regulators and self-regulators: CFTC / NFA
+What it does: They are independant entities enforcing regulations, oversees exchanges, clearinghouse and other market participant.
+What it does not guarantee: Broker solvency
+Question to ask: is the broker and fcm registered?
+
+
+
