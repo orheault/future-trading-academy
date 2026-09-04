@@ -149,11 +149,11 @@ A hedger is a participant that want to protect (hedge) another asset by selling 
 
 Why is futures margin not the maximum amount at risk?
 
-Future margin is the amount of money required in the account to open/maintain a trading position.
+Future margin is the amount of money required in the account to open/maintain a trading position. Initial marge is the required amount to open a position. Maintenance marge is the minimum so keep the position open. A position with a stop loss can loose more than configured du to the slippage, gap, fast market execution.
 
 What does the clearinghouse do?
 
-A clearing house execute trade between seller and buyer. It also maintain the market to allow search liquidity
+A clearing house execute trade between seller and buyer. It also maintain the market to allow search liquidity. The clearinghouse is the central entity that exchange positions, calculate margin requirement daily and collect daily guarantee. It reduce buyer risk that does not respect his conditions.
 
 Why can a USD 10,000 account still have exposure far larger than USD 10,000?
 
@@ -161,7 +161,7 @@ Price varies with the size of the contract and the tick to market. A $ 10K can b
 
 What is the difference between cash settlement and physical delivery?
 
-Physical delivery is the underlying product being sold and shiped to the buyer when the contract expired. The settlement is the participant that close his positions for cash. Usually, participant that settle are speculator or hedger.
+Physical delivery is the underlying product being sold and shiped to the buyer when the contract expired. The settlement is the participant that close his position because he does not want to receive delivery.
 
 Why must a retail trader know the contract month and expiration process?
 
@@ -169,7 +169,7 @@ The contract month is the expiration. this usually happen the third friday of th
 
 What does “only risk capital” mean in your personal situation?
 
-Only risking capital is the principal to only trade with capital that  will allows me to continue trading even if I take 5 loss in a row. Also, this mean to trade my own money and not borrowed money.
+Only risking capital is the principal to only trade with capital that I can affort loosing. 
 
 ## Part D — Ecosystem map
 
