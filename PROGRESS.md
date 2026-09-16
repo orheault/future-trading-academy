@@ -1,8 +1,8 @@
 # Progress Log
 
-**Current week:** 1  
+**Current week:** 2  
 **Current phase:** I — Futures Foundations  
-**Status:** READY TO START  
+**Status:** IN PROGRESS — Week 2 coaching; Week 1 validation pending  
 **Current gate:** Foundation Gate at Week 4  
 **Primary instrument:** MES  
 **Active setup:** None — research only  
@@ -57,8 +57,8 @@
 
 | Week | Topic | Status | Score | Evidence complete | Notes |
 |---:|---|---|---:|---|---|
-| 1 | Risk, ecosystem, futures purpose | Ready |  | No | Start here |
-| 2 | Contract specifications and math | Not started |  | No |  |
+| 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
+| 2 | Contract specifications and math | In progress |  | No | Parts A and B validated 2026-09-15; Part B 5/5 correct; next Part C, questions 14–20; see exercises/week-02/REVIEW.md |
 | 3 | Fundamental context | Not started |  | No |  |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |
@@ -120,6 +120,7 @@ After each week, record:
 
 | Date | Decision | Evidence | Effect |
 |---|---|---|---|
+| 2026-09-07 | Resume Week 2 coaching | Student reports reaching Week 2; Week 1 written answers available | Prepare contract-math lessons and 25 exercises; do not infer a Week 1 pass or platform readiness |
 | 2026-08-23 | Course language set to English | Professional terminology and source availability | Materials and journal use English |
 | 2026-08-23 | MES selected as primary learning instrument | Need to limit scope and use Micro sizing | MGC/MCL observation only at first |
 | 2026-08-23 | Progress controlled by gates | Calendar completion is not evidence of competence | Weeks may be repeated |
