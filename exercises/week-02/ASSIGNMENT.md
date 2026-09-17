@@ -1,6 +1,6 @@
 # Week 2 — Contract Specifications and Trade Mathematics
 
-**Status:** In progress; Parts A and B validated; next: Part C, questions 14–20 (see REVIEW.md)
+**Status:** In progress; A/B validated, C calculation rechecks passed; Q15/Q19 wording to tidy; next: Part D, questions 21–25 (see REVIEW.md)
 **Prepared:** 2026-09-07  
 **Schedule:** Four 2-hour evening sessions, 20:00–22:00 America/Toronto  
 **Objective:** Calculate exposure, P&L, and planned risk independently of the platform.
@@ -79,12 +79,35 @@ net PL: 17 - 2 = 15$
 For 14–19 use C = $2 round-trip fees per contract and S = 2 adverse ticks total per contract across entry/exit. Do not treat S as two ticks on each side. Budget = $25. Entry/stop levels are planning references.
 
 14. **Critical:** Long 1 MES at 6,000.00, stop 5,996.00. Calculate stop ticks, price risk, total planned risk, and whether it fits the budget.
+Stop ticks: (6000-5996) * 4 = 16 ticks
+Price risk: 4 points * 5 = 20$
+Total planned risk: 20$ + 2$ + (1.25 * 2) = 24.5
+Fit budget: Yes
 15. **Critical:** Long 1 MES at 6,000.00, stop 5,995.75. Repeat question 14. If it fails, state the decision without moving the stop.
+Stop ticks: (6000 - 5995.75) = 4,25 points. 4.25 / 0.25 = 17 ticks
+Price risk: 4.25 / 0,25 * 1,25 = 21.25$
+Total planned risk: 21.25$ + 2$ + 2.5$ = 25.75$ 
+Fit budget: No, because the total planned risk is greater than the budget.
 16. **Critical:** Short 1 MNQ at 20,000.00, stop 20,010.00. Calculate stop ticks and total planned risk.
+Stop ticks: (20010-20000) * 4 = 40 ticks
+Total planned risk: (40 * 0.5$) + 2$ + (2 * 0.5$) = 23$
 17. **Critical:** Long 1 MGC at 2,500.0, stop 2,498.0. Calculate stop ticks and total planned risk.
+Stop ticks: (2500 - 2498) * 10 = 20 ticks
+Total planned risk: (20 * 1$) + 2$ + (2 * 1$) = 24$
 18. **Critical:** Short 1 MCL at 75.00, stop 75.22. Calculate stop ticks, total planned risk, and the budget decision.
+Stop ticks: (75.22 - 75) * 100 = 22 ticks
+Total planned risk: (22 ticks * 1$) + 2 + (2 * 1$)  = 26$
+Fit budget: No, greater than 25$
 19. A paper MES scenario has an 8-tick stop. Calculate risk per contract, the risk-based quantity for $25, and the quantity permitted by the academy cap. Does this alone authorize a trade?
+Risk per contract: (8 * 1.25$) + 2$ + 2.5$ = 14.50
+Risk for 25$: 25$ / 14.5$ = 1.72 contract
+Max quantity: 1.72 down to 1 micro
+Authorize:Non. Le calcul autorise une quantité selon le budget, mais le trade doit aussi respecter la stratégie et les règles de gestion du risque.
 20. An actual long MES fill is 6,000.25; actual exit is 5,995.75; round-trip fees are $2. Initial planned risk was $24.50. Calculate gross P&L, net P&L, and result in R. Explain why you do not subtract another slippage allowance.
+Gross PL: (5995.75 - 6000.25) * 5$ = -22.50$
+Net PL:-22.5-2$ =  -24.50$
+R = -24.50 / 24.50 = -1R
+Explain: Slippage is not calculated because the slippage is part of the entry and exit price. 
 
 ### D — Spread and order scenarios
 
