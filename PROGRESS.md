@@ -58,7 +58,7 @@
 | Week | Topic | Status | Score | Evidence complete | Notes |
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
-| 2 | Contract specifications and math | In progress |  | No | A/B validated; C calculation rechecks passed 2026-09-16; minor Q15/Q19 wording cleanup remains; next Part D, questions 21–25; see exercises/week-02/REVIEW.md |
+| 2 | Contract specifications and math | In progress |  | No | Written A–D accepted after corrections 2026-09-17; Q25 checks complete, coach-attributed notation fix; next closed-book quiz and contract/platform lab; notes, journal and weekly review evidence to verify |
 | 3 | Fundamental context | Not started |  | No |  |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |

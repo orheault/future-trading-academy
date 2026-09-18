@@ -1,6 +1,6 @@
 # Week 2 — Contract Specifications and Trade Mathematics
 
-**Status:** In progress; A/B validated, C calculation rechecks passed; Q15/Q19 wording to tidy; next: Part D, questions 21–25 (see REVIEW.md)
+**Status:** In progress; written Parts A–D reviewed and validated after corrections; next: closed-book quiz and platform lab (see REVIEW.md)
 **Prepared:** 2026-09-07  
 **Schedule:** Four 2-hour evening sessions, 20:00–22:00 America/Toronto  
 **Objective:** Calculate exposure, P&L, and planned risk independently of the platform.
@@ -112,10 +112,32 @@ Explain: Slippage is not calculated because the slippage is part of the entry an
 ### D — Spread and order scenarios
 
 21. MES bid is 6,000.00 and ask is 6,000.25. Assume an immediate buy fills at that ask and an immediate sale fills at that bid, both for one contract. With $2 round-trip fees, calculate spread in ticks, gross P&L, and net P&L.
+Spread: 6000.25 - 6000 = 0.25 points. 0.25/0.25 = 1 tick
+Gross PL: -0.25/0.25 * 1.25 = -1.25
+Net PL: -1.25-2 = -3.25 $
 22. A paper plan targets an 8-tick MES gain with C = $2 and S = 2 ticks total. Calculate gross target profit, estimated net profit, and costs as a percentage of gross target profit.
+Gross target profit: 8 * 1.25 = 10$
+Net profit: 10 -2$ - (2*1.25) = 5.5$
+Cost % gross target profit: 4.5 / 10 = 0.45 = 45%
 23. A long MES entry fills at 6,000.00. Its sell stop triggers at 5,996.00 but fills at 5,995.25. Fees are $2 round trip. Calculate adverse stop slippage in ticks, actual net loss, and excess loss over a plan assuming an exact stop fill plus fees.
+Stop slippage ticks: 5996-5995.25 = 0.75. 0.75/0.25 = 3 ticks
+Net loss: 6000-5995.25=4.75. 4.75/0.25= 19 ticks. 19 * 1.25= 23.75. -23.75-2= -25.75$
+Excess loss:  25.75 - 22 = 3.75$
 24. A long MES at 6,000.00 uses a sell stop-limit: trigger 5,996.00, limit 5,995.75. After triggering, available bids jump to 5,994.00 with no fill at or above the limit. Does the exit necessarily fill? Calculate unrealized gross P&L marked at 5,994.00 if the position remains open.
+No, because the minimum is 5995.75.
+Gross PL: 5994-6000=-6 points. -6 / 0.25 = -24 ticks. -24 * 1.25 = -30$
 25. A hypothetical MES long bracket has entry 6,000.00, target 6,006.00, and stop 5,996.00, one contract. Calculate target and stop offsets in ticks. If the target fills exactly, calculate net profit with $2 fees. Explain the intended effect on the OCO stop and what must be checked afterward.
+Target offset: (6006-6000 ) / 0.25 = 24 ticks
+Stop offset: (6000-5996) / 0.25 = 16 ticks sous l'entrée
+
+> Coach correction, 2026-09-17: reversed the subtraction to express the positive distance. The original `(5996-6000) / 0.25` equals −16 ticks, which is the signed displacement below entry.
+
+Net profit: 24 * 1.25 - 2 = 28$
+Explain: The OCO orders aim to set a take profit and a stop loss. This help control the risk. Afterward the trader must check the slippage to know the real profit or loss. When the objective is fulfill, the orders associated to that objective are cancel. Un stop vendeur laissé actif pourrait ensuite ouvrir une position short involontaire s’il s’exécute.
+L’objectif a été entièrement exécuté pour un contrat.
+La position est flat : zéro contrat.
+Le stop lié par OCO est confirmé annulé, sans ordre résiduel associé à ce trade.
+
 
 ## Contract and platform lab — no order submission
 
