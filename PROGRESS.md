@@ -35,7 +35,7 @@
 | Primary training session | New York session through historical replay |
 | Secondary observation session | Asian session, suitability to be assessed |
 | Learning preference | reading / guided exercises / mixed. video are not required |
-| Sierra Chart status | Not installed; no account or data feed configured |
+| Sierra Chart status | Installed (version 2947 in screenshot dated 2026-09-03). Student confirms SC Data, [Sim], Sim1 and Delayed on 2026-09-18; Week 2 platform question 1 complete; current contract selection and remaining lab evidence pending |
 | Six-month success definition | Complete every competency gate and develop one evidence-backed setup |
 | Current non-goals | Live trading before validation; multiple setups; strategy automation |
 
@@ -58,7 +58,7 @@
 | Week | Topic | Status | Score | Evidence complete | Notes |
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
-| 2 | Contract specifications and math | In progress |  | No | Written A–D accepted after corrections 2026-09-17; Q25 checks complete, coach-attributed notation fix; next closed-book quiz and contract/platform lab; notes, journal and weekly review evidence to verify |
+| 2 | Contract specifications and math | In progress |  | No | Written A–D accepted; platform lab Q1–4 complete after feedback 2026-09-22; closed-book quiz and notes/journal/review evidence outstanding |
 | 3 | Fundamental context | Not started |  | No |  |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |

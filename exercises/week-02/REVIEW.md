@@ -220,3 +220,95 @@ The student added all three required checks: full target fill for one contract, 
 The distance is correctly described as 16 ticks below entry, but the written numerator remained `5996 − 6000` while the result was positive. The coach corrected the numerator to `6000 − 5996` and added an attributed note preserving the original expression and explaining its signed result. This editorial correction is not represented as an independent student calculation.
 
 **Decision:** Written Parts A–D are reviewed and accepted after corrections/remediation. No further rewrite cycle is required for Q25. Overall Week 2 remains in progress: the closed-book concept quiz will assess independent understanding; the contract/platform lab, student notes, study log, and weekly review require completion/verification. No weekly score, platform completion, or trade authorization is inferred.
+
+## Platform lab — Question 1 screenshot evidence, reviewed 2026-09-18
+
+Source: `journal/screenshots/week-01/Capture d’écran 2026-09-03 212213.png`, visually inspected. The Windows taskbar shows 2026-09-03; the chart/application timestamps show 2026-09-04. No timezone setting is visible, so the difference is not treated as an error or used to infer the configured timezone.
+
+Visible at capture time:
+
+- Sierra Chart installed/running, version 2947.
+- Chartbook `FTA-01-SAFETY-SIM`.
+- `[Sim]` in the application title and account `Sim1` in the trade window: evidence of simulation at capture time.
+- `Delayed` in the chart title: delayed data for the displayed MES chart.
+- `SC Data` label in the application title. The exact `Current Selected Service` setting is not displayed; do not equate this abbreviated label with a verified full service setting.
+- Symbol `MESU26-CME[M]`, September 2026 MES, one-minute chart.
+- Position display `Flat`. This does not prove there were no working orders elsewhere.
+
+Updated the previously stale installed-status field in `PROGRESS.md`. This historical screenshot supports question 1 but does not establish present-day settings, current active expiry, bracket configuration, or completion of either week's entire platform lab. Next: confirm the exact Current Selected Service value and whether the observed simulation/delayed-data settings remain current. No platform actions or orders were performed.
+
+### Question 1 — Student service confirmation, 2026-09-18
+
+Student reports `SC Data` selected in the service settings. Recorded this as current student-reported service evidence in the assignment and progress log. Current `[Sim]`/`Sim1` and delayed-data status have not yet been reconfirmed; the prior screenshot remains historical evidence for those fields. No change to platform settings was requested or performed.
+
+### Question 1 — Complete, 2026-09-18
+
+In subsequent messages, the student explicitly confirmed `[Sim]`, `Delayed`, and finally `Sim1` in the Trade Window. Together with the confirmed `SC Data` setting and installation evidence, this completes the setup inventory requested by platform question 1. Current settings are student-reported, not a fresh screenshot inspection. No trade or settings change was performed by the coach.
+
+Next: question 2, beginning with the exact current MES chart symbol and observation/replay date. The September symbol in the old screenshot does not establish the current symbol or active expiry. Volume comparison and dated contract selection evidence remain pending. Overall platform lab and Week 2 remain incomplete.
+
+### Question 2 — Symbol recorded, 2026-09-18
+
+Student reports `MESZ26-CME`. Parsed as MES, December (Z), 2026; retained the displayed CME suffix exactly. Record date is the conversation date, not an inferred chart/replay timestamp. Need to establish whether this is current delayed observation or historical replay, then document relevant expiry volumes for that session before validating the active-contract choice. No expiry date, volume, or rollover event was inferred from the symbol alone.
+
+### Question 2 — Observation mode confirmed, 2026-09-18
+
+Student confirms the chart follows the current delayed market rather than historical replay. Next evidence needed: observation time/session and comparable total session volumes for the relevant MES expiries, including December 2026. Do not substitute individual candle volume for contract session volume or presume the active expiry from the displayed symbol alone.
+
+### Question 2 — Daily Volume reports zero, 2026-09-18
+
+Student reports Daily Volume = 0. Treat this as an unverified quote-field reading, not established zero trading activity or evidence that December is inactive. No diagnosis is confirmed. Request the Current Quote Window's displayed symbol, date/time, and Last/Bid/Ask values (or a screenshot) to check quote identity and freshness before changing configuration or using this value in an expiry comparison. No settings changed; question 2 remains pending.
+
+### Question 2 — Quote timestamp and prices supplied, 2026-09-18
+
+Student reports timestamp `2026-09-18 20:59:59.707 Fri`, timezone UTC+0, Last 7,725.50, Bid 7,725.25, Ask 7,725.50. That timestamp converts to 16:59:59.707 Toronto (EDT), consistent with just before the normal Friday close. The supplied spread is 0.25 points, one MES tick. These populated price fields do not establish a functioning current connection or explain Daily Volume = 0; zero is not accepted as comparative liquidity evidence.
+
+Fallback for the learning exercise: compare contract-specific Historical Daily volumes for the same completed session (proposed 2026-09-17), recording that this is prior-session evidence rather than the live volume on 2026-09-18. Before using those values, verify `Download Total Volume for All Contracts for Futures Daily Data` is No, and use specific-expiry, non-continuous charts. Sierra's documentation says Yes aggregates all expiries and No gives the individual contract volume. No setting change or alternative volume observation is yet confirmed.
+
+### Question 2 — Historical volume setting confirmed, 2026-09-18
+
+Student confirms `Download Total Volume for All Contracts for Futures Daily Data` is **No**. No change required. Next: open separate Historical Daily charts for MES September 2026 and December 2026, verify no continuous-contract stitching, and read the Volume of the 2026-09-17 daily bar on both charts. The comparison date precedes the current Friday session and must be labeled accordingly. Actual volumes remain pending; if existing files were downloaded under different settings their provenance would need checking before relying on them.
+
+### Question 2 — December daily volume captured, 2026-09-18
+
+First submitted daily-chart screenshot displayed `Tue 2026-03-17` in Chart Values for Tools, with Volume 2. That was a March bar, not the requested September session; this explains that particular reading, not the separate Current Quote Window Daily Volume zero.
+
+The next screenshot visibly shows `MESZ26-CME[M]`, `Daily`, and `Thu 2026-09-17` selected. Recorded **Volume 1,014,522 contracts** for the displayed December chart on that session. Open interest is separately displayed as 108,133 and was not mistaken for volume. Evidence saved to `journal/screenshots/week-02/2026-09-17_MESZ26_daily-volume.png` from the user-supplied image.
+
+Next: obtain the corresponding daily Volume for `MESU26-CME` on **2026-09-17**, using the same data basis. The No setting for all-expiry volume aggregation was confirmed earlier; Continuous Contract = None has been requested but not explicitly confirmed. Contract-specific comparison and active-contract conclusion remain pending. No live-session volume or present-day trade eligibility is inferred from this historical reading.
+
+### Question 2 — September volume and comparison recorded, 2026-09-18
+
+The user-supplied screenshot visibly shows `MESU26-CME[M]`, Daily, selected bar `Thu 2026-09-17`, **Volume 123,498**, and separate OpenInt 260,677. Saved the evidence to `journal/screenshots/week-02/2026-09-17_MESU26_daily-volume.png`. The earlier September-chart screenshot had the cursor on 2026-09-24 and its zero was not used.
+
+Same selected session comparison: December 1,014,522 / September 123,498 = approximately **8.21**. December accounts for about 89.15% of the combined volume of these two expiries only. This supports choosing December as the more actively traded of the two based on 2026-09-17 data; it does not prove every aspect of liquidity or a guaranteed fill. The two screenshots and prior-session basis are recorded in the assignment.
+
+Remaining verification for question 2: student confirmation that Continuous Contract = None on both charts; its setting is not visible in these images. Do not mark that configuration check complete by inference. After confirmation, continue to question 3 (specifications and expiry). Closed-book quiz and other weekly evidence remain outstanding.
+
+### Question 2 — Final configuration confirmation, 2026-09-18
+
+In response to the check for both charts, the student confirms “OUi bien sur none”. Continuous Contract = None is therefore recorded as student-confirmed, not screenshot-verified. Together with the previously confirmed No aggregation setting and the two same-session screenshots, this completes question 2 for the exercise. December is supported as the more actively traded of the two compared expiries on 2026-09-17. Continue with question 3: official contract specifications, expiry, financial settlement, and the distinction between changing a chart symbol and rolling an open position. Week 2 remains in progress.
+
+### Question 4 — Bracket preparation screenshots reviewed, 2026-09-22
+
+Saved both student screenshots under `journal/screenshots/week-02/`: `2026-09-22_bracket-main.png` and `2026-09-22_bracket-targets-stop-limit.png`. Simulation indicator, Sim1, Flat, parent limit 6,000, quantity 1, and Use Attached Orders enabled are visible. Target 1 is Limit, 24 ticks, quantity 1; Stop 1 is Stop Limit, 16 ticks, quantity 1, OCO Group 1. The target's group selector is not shown. The $30 target and $20 stop amounts are gross price distances, not net results or a guaranteed maximum loss.
+
+Offsets are accepted. The original prompt did not specify a stop subtype; this is a coaching clarification, not a previously stated requirement the student failed. For this simulation preparation, request `Stop: Stop` and explain that a triggered Stop Limit may remain unfilled if its limit prevents execution. Keep 16 ticks, quantity 1, OCO Group 1, and confirm the target uses the same group. Updated screenshot requested without submitting any order. Flat is current position evidence only, not proof of no working orders or prior submissions. Question 4 remains pending final configuration review; question 3 and the quiz remain outstanding.
+
+References checked: Sierra Chart Attached Orders and Order Types documentation.
+
+### Question 4 — Corrected stop verified, 2026-09-22
+
+Saved the new screenshot as `journal/screenshots/week-02/2026-09-22_bracket-targets-stop.png`. Visible selected Stop 1: Type `Stop: Stop`, Offset Type Ticks, Stop Offset 16, Quantity 1, OCO Group 1. Stop configuration accepted. Target 1 remains listed as Limit / 24 ticks / quantity 1; its group selector is still not displayed. Request selection of Target 1 and confirmation of OCO Group 1 to finish the configuration review. No order submission requested or inferred.
+
+### Question 4 — Target group verified; preparation complete, 2026-09-22
+
+Saved `journal/screenshots/week-02/2026-09-22_bracket-target-selected.png`. Selected Target 1 visibly shows `Target: Limit`, Offset Type Ticks, Limit Offset 24, Quantity 1, OCO Group 1. Combined with prior Main-tab and corrected Stop 1 screenshots, the preparation requirement for question 4 is complete. Both attached orders use the same OCO group. This is configuration evidence only, not an execution or cancellation test, and no submission is requested or inferred. Next: obtain the student's question 3 specification/settlement/roll explanation. Closed-book quiz and remaining weekly evidence are still outstanding; Week 2 remains in progress.
+
+### Question 3 — Specifications accepted; explanation pending, 2026-09-22
+
+Reviewed the student's four added lines in ASSIGNMENT.md. Correct: outright tick 0.25 points = USD 1.25 per contract; multiplier USD 5 times the index; December 18, 2026 last trade date for MESZ26 under the third-Friday rule; financially settled. Official reference rechecked: https://www.cmegroup.com/rulebook/CME/IV/350/353/353.pdf (35301, 35302.C/G, 35303). The required distinction between changing a chart symbol and rolling an open position is absent. Request a short explanation in the student's own words before completing question 3 and advancing to the closed-book quiz. No student answer was replaced or supplied as student evidence.
+
+### Question 3 — Rollover explanation accepted, 2026-09-22
+
+Student explains in chat that rollover closes September and opens December; original wording preserved in ASSIGNMENT.md. Accepted after coaching, with instructor clarification that merely switching the chart leaves the original position unchanged. Question 3 and platform preparation lab questions 1–4 are complete. This is completion after feedback, not a closed-book mastery score or live trading authorization. Begin the existing closed-book quiz with question 1 (tick, point, tick value, multiplier). Week 2 remains in progress pending quiz and other weekly evidence.

@@ -128,7 +128,7 @@ No, because the minimum is 5995.75.
 Gross PL: 5994-6000=-6 points. -6 / 0.25 = -24 ticks. -24 * 1.25 = -30$
 25. A hypothetical MES long bracket has entry 6,000.00, target 6,006.00, and stop 5,996.00, one contract. Calculate target and stop offsets in ticks. If the target fills exactly, calculate net profit with $2 fees. Explain the intended effect on the OCO stop and what must be checked afterward.
 Target offset: (6006-6000 ) / 0.25 = 24 ticks
-Stop offset: (6000-5996) / 0.25 = 16 ticks sous l'entrée
+Stop offset: (5996 - 6000) / 0.25 = -16 ticks, sous l'entrée
 
 > Coach correction, 2026-09-17: reversed the subtraction to express the positive distance. The original `(5996-6000) / 0.25` equals −16 ticks, which is the signed displacement below entry.
 
@@ -141,10 +141,43 @@ Le stop lié par OCO est confirmé annulé, sans ordre résiduel associé à ce 
 
 ## Contract and platform lab — no order submission
 
-1. Record whether Sierra Chart is installed and what simulation/data service is available. The old profile says not installed; current state is unverified.
+1. Record whether Sierra Chart is installed and what simulation/data service is available.
+
+   Coach evidence record, 2026-09-18 — Question 1 complete: installed (screenshot from 2026-09-03); student confirms current service `SC Data`, simulation indicator `[Sim]`, selected account `Sim1` in the Trade Window, and `Delayed` on the chart. Current settings are student-reported; no orders submitted by the coach.
+
 2. Record the exact dated MES symbol and observation/replay date. Compare relevant expiry volumes, cite the source/time, and justify the active-contract choice. Do not guess it from the current calendar month.
+
+   Coach evidence record, 2026-09-18 — Question 2 complete: student reports chart symbol `MESZ26-CME` (MES December 2026) and confirms observation of the current delayed market, not historical replay. The contract comparison below uses the completed 2026-09-17 daily session, reviewed on 2026-09-18, because current quote Daily Volume was zero.
+
+   Historical comparison (same-session fallback), screenshots reviewed 2026-09-18:
+
+   | Contract | Selected daily session | Volume (contracts) | Evidence under journal/screenshots/week-02/ |
+   |---|---|---:|---|
+   | MESU26-CME — September 2026 | 2026-09-17 | 123,498 | 2026-09-17_MESU26_daily-volume.png |
+   | MESZ26-CME — December 2026 | 2026-09-17 | 1,014,522 | 2026-09-17_MESZ26_daily-volume.png |
+
+   Coach interpretation: December shows approximately 8.21 times September's volume, supporting December as the more actively traded of these two expiries for that session. This is historical daily-bar evidence, not current-session volume or a comparison of every listed expiry. The student confirms all-expiry volume aggregation is No and, on 2026-09-18, Continuous Contract = None on both charts. Settings are student-reported; the selected dates and volumes are visible in the saved screenshots. Contract-specific comparison accepted for this exercise.
+
 3. Verify tick size, multiplier, expiry, and financial settlement from official product details. Distinguish switching a chart symbol from rolling an open position.
+Tick size: Outright: 0.25 index points = $1.25 
+multiplier: $5 x S&P 500 Index
+expiry: last trade: 18 Dec 2026
+settlement: Financially Settled
+
+   Coach review, 2026-09-22: the four recorded specifications are correct for MESZ26: outright tick 0.25 index points / USD 1.25, multiplier USD 5 per index point, December 18, 2026 expiration under the third-Friday rule, and financial settlement. Reference: [CME Rulebook, Chapter 353](https://www.cmegroup.com/rulebook/CME/IV/350/353/353.pdf), checked 2026-09-22. The final part is unanswered: explain in your own words how changing the chart symbol differs from rolling an open position. Question 3 remains partially complete until that explanation is provided. Student answers above are preserved.
+
+   Student follow-up in chat, 2026-09-22: “Dans ce cas, il serait nécessaire d'effectuer une transaction de type rollover. Cette transaction ferme la position en septembre et ouvre une position pour décembre”
+
+   Coach final review, 2026-09-22 — Question 3 complete after feedback: rollover explanation accepted. Coach clarification: changing the chart symbol alone leaves the existing position on its original expiry; rolling requires closing that position and opening the later expiry. This clarification is instructor-provided, not an additional student quotation. Platform lab questions 1–4 are now complete; the closed-book quiz remains pending.
+
 4. With simulation mode and intended account visibly confirmed, prepare the question 25 bracket fields without pressing Buy, Sell, or any submission control. Save evidence of quantity and tick offsets under `journal/screenshots/week-02/`.
+
+   Coach review, 2026-09-22: screenshots saved as `2026-09-22_bracket-main.png` and `2026-09-22_bracket-targets-stop-limit.png` in the evidence directory. Visible: `[Sim]`, `Sim1`, Flat, MESZ26-CME, parent Limit 6,000 and quantity 1, Use Attached Orders enabled, Target 1 Limit 24 ticks / quantity 1, Stop 1 Stop Limit 16 ticks / quantity 1 with OCO Group 1 selected. Distances accepted. The original instructions did not specify the stop subtype; coach now specifies `Stop: Stop` for this simulation preparation exercise and explains the non-fill risk of Stop Limit. Final configuration review pending an updated stop screenshot and confirmation that Target 1 also uses OCO Group 1. Flat alone does not prove absence of pending orders or that no order was submitted. No submission is required or authorized by this exercise.
+
+   Follow-up evidence, 2026-09-22: `2026-09-22_bracket-targets-stop.png` visibly confirms Stop 1 now uses `Stop: Stop`, offset 16 ticks, quantity 1, OCO Group 1. Stop configuration accepted. Only confirmation of Target 1's OCO Group 1 remains for this configuration review; no order submission requested.
+
+   Final configuration review, 2026-09-22 — Question 4 complete: `2026-09-22_bracket-target-selected.png` visibly confirms Target 1 uses `Target: Limit`, offset 24 ticks, quantity 1, OCO Group 1. Together with the corrected stop screenshot and Main-tab evidence, the required bracket preparation is accepted. This validates ticket configuration only; it does not demonstrate execution or actual OCO cancellation. No order submission is requested. Question 3 remains outstanding.
+
 5. If the platform is unavailable, draw the order ticket on paper and record `platform evidence pending`; this is preparation, not completion of the platform lab.
 
 Reference: [Sierra Chart Attached Orders](https://www.sierrachart.com/index.php?page=doc/AttachedOrders.html). Platform behavior must be checked for the installed version and selected service.
