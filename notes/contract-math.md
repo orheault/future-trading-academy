@@ -1,7 +1,7 @@
 # Week 2 — Contract Specifications and Trade Mathematics
 
 **Prepared:** 2026-09-07  
-**Status:** Instructor reference; student explanations and assessment pending  
+**Status:** Instructor reference plus student section 7 reviewed after corrections; Week 2 passed after remediation on 2026-09-24 (see exercises/week-02/REVIEW.md)  
 **Language:** English terminology; coaching may be in French  
 **Scope:** Paper calculations and an unsubmitted simulation order ticket. All prices and costs below are hypothetical, in USD.
 
@@ -106,7 +106,22 @@ A bracket associates an entry with protective and profit-taking orders. OCO link
 ## 7. Student notes — complete after the lesson
 
 1. Explain point versus tick in your own words:
+A tick is the smallest increment possible. A point represent an increment of 1 on the chart, equal of 5$. There are multiple ticks per point. The exchange define the tick size, meaning how many tick there are in a point.
 2. Explain notional versus margin versus planned risk:
-3. Show a new MES long example and a new MES short example:
+Notional value is the total value under contract. The marging is the required amount of money to have in the account to take a trade and to maintain a position. The planned risk is the amount of money expected loosing at the stop if the trade goes against us. It take into account the loss + commission + estimated slippage.
+3. Show a new MES long example and a new MES short example, 1 mes, 2 usd round trip:
+Long: take position at 6000,00 with objective at 6005.00. I think the market will go up. 
+point: 6005-6000 = 5 points
+ticks: (6005-6000) / 0.25 = 20 ticks
+p&l brut: ((6005-6000) / 0.25 * 1.25) = 25$
+p&L NET: ((6005-6000) / 0.25 * 1.25)  - 2 = 23$
+Short: take position at 6000,00 with objective at 5990.00. I think the market will go down.
+points: 6000.00-5990.00=10 points
+ticks:10/0.25 = 40 ticks
+p&l brut:40*1.25=50$
+p&l net:50$-2=48$
 4. Explain how you avoid double-counting execution costs:
+Exécutions réelles:	Le slippage est déjà intégré aux prix d’entrée et de sortie. Brut = résultat calculé avec ces prix ; net = brut − frais réels.
+Prix prévus:	Pour estimer le résultat net, on déduit les frais et la provision de slippage du résultat calculé aux prix prévus.
 5. Record one mistake, its cause, and the check that prevents it:
+The mistake is to take an unwanted position. The cause was a previous OCO order was still open, the price went down and took it. To prevent this, i must check position is flat, objectif entirely executed, stop cancelled, no residual order. This is an hypothetical example.

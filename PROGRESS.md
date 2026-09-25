@@ -1,8 +1,8 @@
 # Progress Log
 
-**Current week:** 2  
+**Current week:** 3 — next lesson  
 **Current phase:** I — Futures Foundations  
-**Status:** IN PROGRESS — Week 2 coaching; Week 1 validation pending  
+**Status:** Week 2 passed after remediation (85/100, 2026-09-24); ready for Week 3; Week 1 validation pending  
 **Current gate:** Foundation Gate at Week 4  
 **Primary instrument:** MES  
 **Active setup:** None — research only  
@@ -35,7 +35,7 @@
 | Primary training session | New York session through historical replay |
 | Secondary observation session | Asian session, suitability to be assessed |
 | Learning preference | reading / guided exercises / mixed. video are not required |
-| Sierra Chart status | Installed (version 2947 in screenshot dated 2026-09-03). Student confirms SC Data, [Sim], Sim1 and Delayed on 2026-09-18; Week 2 platform question 1 complete; current contract selection and remaining lab evidence pending |
+| Sierra Chart status | Installed (version 2947); Week 2 contract comparison and unsubmitted bracket preparation verified from screenshots and student confirmations. SC Data, [Sim], Sim1 and Delayed documented; lab complete after corrections, not an order-execution test |
 | Six-month success definition | Complete every competency gate and develop one evidence-backed setup |
 | Current non-goals | Live trading before validation; multiple setups; strategy automation |
 
@@ -58,7 +58,7 @@
 | Week | Topic | Status | Score | Evidence complete | Notes |
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
-| 2 | Contract specifications and math | In progress |  | No | Written A–D accepted; platform lab Q1–4 complete after feedback 2026-09-22; closed-book quiz and notes/journal/review evidence outstanding |
+| 2 | Contract specifications and math | Passed after remediation | 85 | Yes | Final assessment 2026-09-24 in exercises/week-02/REVIEW.md; 10/10 final critical calculation items correct after remediation; nine Study Log blocks total 460 recorded minutes; retain arithmetic and execution-cost checks |
 | 3 | Fundamental context | Not started |  | No |  |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |
@@ -120,6 +120,7 @@ After each week, record:
 
 | Date | Decision | Evidence | Effect |
 |---|---|---|---|
+| 2026-09-24 | Week 2 passed after remediation, 85/100 | Corrected critical calculations and fresh rechecks, platform preparation screenshots, quiz remediation, section 7 notes, weekly reflection and completed Study Log identifiers/dates/durations | Ready for Week 3 theory and observation; Week 1 review and Foundation Gate remain separate; no change to execution permissions |
 | 2026-09-07 | Resume Week 2 coaching | Student reports reaching Week 2; Week 1 written answers available | Prepare contract-math lessons and 25 exercises; do not infer a Week 1 pass or platform readiness |
 | 2026-08-23 | Course language set to English | Professional terminology and source availability | Materials and journal use English |
 | 2026-08-23 | MES selected as primary learning instrument | Need to limit scope and use Micro sizing | MGC/MCL observation only at first |

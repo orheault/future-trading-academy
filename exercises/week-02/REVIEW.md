@@ -3,8 +3,8 @@
 ## Part A — First submission, reviewed 2026-09-15
 
 **Evidence:** Answers to questions 1–8 in `ASSIGNMENT.md`.
-**Current status:** Written Parts A–D reviewed and validated after corrections, 2026-09-17. Q25 operational checks are now explicit; coach corrected the remaining stop-distance notation transparently. Closed-book quiz, platform lab, and remaining weekly evidence still pending verification.
-**Assessment scope:** Parts A–D, as detailed below. No overall weekly score or pass assigned; platform lab, concept quiz, and remaining evidence are not verified complete.
+**Current status (2026-09-24):** Week 2 passed after remediation, **85/100**. Final rubric and evidence assessment appear at the end of this document. Prior pending decisions below are retained as dated history.
+**Assessment scope:** Written work and fresh rechecks, platform preparation screenshots, coached quiz responses, student notes, reflection and Study Log. This is a rubric-based instructor assessment after remediation, not an unassisted exam percentage or proof of independent live execution readiness.
 
 The table below records the first submission. The student subsequently revised answers in place; the follow-up review below distinguishes those revisions from the original assessment.
 
@@ -312,3 +312,116 @@ Reviewed the student's four added lines in ASSIGNMENT.md. Correct: outright tick
 ### Question 3 — Rollover explanation accepted, 2026-09-22
 
 Student explains in chat that rollover closes September and opens December; original wording preserved in ASSIGNMENT.md. Accepted after coaching, with instructor clarification that merely switching the chart leaves the original position unchanged. Question 3 and platform preparation lab questions 1–4 are complete. This is completion after feedback, not a closed-book mastery score or live trading authorization. Begin the existing closed-book quiz with question 1 (tick, point, tick value, multiplier). Week 2 remains in progress pending quiz and other weekly evidence.
+
+### Closed-book quiz — Question 1 reviewed, 2026-09-22
+
+Original chat answer preserved in ASSIGNMENT.md. Correct minimum-increment definition, relationship between tick size and ticks per point, multiplier as dollar value per point, and MES USD 5/point and USD 1.25/tick. Accepted with instructor clarification: one point is one quoted-price unit; MES tick size 0.25 point gives four ticks per point. The explicit 0.25/four-tick values were not supplied by the student in this response. No overall score assigned. Continue to question 2: distinguish notional exposure, margin, and planned risk-to-stop.
+
+### Closed-book quiz — Question 2 needs remediation, 2026-09-22
+
+Student answer preserved verbatim in ASSIGNMENT.md. Broadly correct notional/margin definitions and explicit recognition that margin is not maximum loss. Two issues remain: planned dollar risk needs tick-value conversion before adding fees, and the final assertion incorrectly ties maximum loss to account balance relative to notional exposure. Clarify leverage versus loss and that futures losses can exceed deposits (NFA Investor Best Practices, checked 2026-09-22). Use a new hypothetical USD 500 starting balance / USD 650 realized net loss to check understanding before moving on. Question 2 remains pending; no overall score or risk mastery pass assigned.
+
+### Closed-book quiz — Question 2 remediation accepted, 2026-09-22
+
+Student correctly calculates a USD −150 balance and explicitly states that USD 500 did not limit the loss. Original wording preserved in ASSIGNMENT.md. Clarify that the loss exhausts USD 500 and exceeds it by USD 150. Loss-cap remediation accepted; question 2 accepted after feedback, with monetary-risk unit conversion recorded as instructor clarification rather than independent student evidence. Continue to question 3 on why planned stop risk is not a maximum possible loss. No overall score or weekly completion assigned.
+
+### Closed-book quiz — Question 3 accepted, 2026-09-23
+
+Student independently identifies slippage exceeding its planned allowance and market execution speed as reasons for excess loss. Original answer preserved in ASSIGNMENT.md. Core answer accepted. Coach clarifies that rapid price movement and/or execution delay can produce a worse fill, and a stop trigger level is not a guaranteed fill price; faster execution itself is not inherently a cause of loss. Continue to question 4 on double-counting slippage when actual fills are used. No total quiz score or weekly completion assigned.
+
+### Closed-book quiz — Question 4 accepted, 2026-09-23
+
+Student correctly states that no additional slippage allowance should be deducted because slippage is already included in the exit fill. Original wording preserved in ASSIGNMENT.md. Accepted with a scope clarification: actual entry fills also incorporate entry slippage. Actual commissions/fees remain deductible from gross fill-based P&L. Continue to question 5: offset, rollover, final settlement, and why the third-Friday expiry rule is not universal. No overall score or weekly completion assigned.
+
+### Closed-book quiz — Question 5 remediation required, 2026-09-23
+
+Original answer preserved in ASSIGNMENT.md. Student correctly describes rollover closing one expiry and opening another but incorrectly presents offset and final settlement as successive steps intended to receive the underlying. Clarify equal/opposite same-expiry offset ends the position; positions held to expiry undergo contract-specific settlement, which is cash for MES. Distinguish expiry settlement from realized P&L and daily variation settlement. Third-Friday universality question was unanswered. Official CME expiration/roll lesson and MES Chapter 353 rechecked. Follow-up checks a December MES round trip before expiry, MES cash versus share delivery at expiry, and whether gold/crude expiry can be inferred from MES. Q5 remains pending; no overall score assigned.
+
+### Closed-book quiz — Question 5 remediation accepted, 2026-09-23
+
+All three follow-up answers are correct and preserved in ASSIGNMENT.md. Student recognizes that full offset leaves no position to settle at expiry, MES held to expiry is financially settled, and expiry details must be obtained from the exchange's contract information page (CME in this exercise). Accept question 5 after remediation, preserving the initial misconception and its correction. Continue to question 6: potential stop-limit non-execution and bracket/OCO failure plus checks after a target fill. Quiz questions 6–8 and other weekly evidence remain outstanding; no total score or week completion assigned.
+
+### Closed-book quiz — Question 6 remediation needed, 2026-09-23
+
+Student honestly reports uncertainty about stop-limit non-execution; correctly identifies unintended short risk from an orphan sell stop after closing a long; mentions checking both orders and fill/slippage review. Original answers preserved in ASSIGNMENT.md. Need explicit distinction between target Filled and stop Canceled, position Flat/zero, and absence of residual associated orders. Explain triggered sell stop-limit cannot execute below its limit and may leave the long exposed. Sierra Chart Order Types documentation rechecked. A new numeric example and a status-check question will test understanding; Q6 not yet validated. No score or week completion assigned.
+
+### Closed-book quiz — Question 6 remediation accepted with clarification, 2026-09-23
+
+Original follow-up answers preserved in ASSIGNMENT.md. Student correctly reasons that a sell limit at 6099.50 cannot execute against the prompt's best bid 6099.00 and the position stays open. Their written 9099.00 is treated explicitly as a likely typo, not silently corrected or accepted literally. They identify full closure and no remaining associated orders. Accept Q6 after remediation, clarifying that the precise stop status is Canceled, while the target is Filled and the position Flat/zero. Exact English status terminology was supplied by the coach, not independently reproduced by the student. Continue with historical-replay expiry selection (Q7); no overall score or weekly completion assigned.
+
+### Closed-book quiz — Question 7 partially complete, 2026-09-23
+
+Student identifies File/Find Symbol and comparison of volume with the next expiry. Original answer preserved in ASSIGNMENT.md. Volume-comparison principle accepted, historical date/time basis missing. Ask the student to distinguish current volumes from volumes relevant to a 2026-09-17 replay. When coaching a decision made before session open, distinguish preceding completed-session evidence from full replay-day volume only known afterward. No assumption that the student has already addressed this temporal issue. Q7 remains pending; Q8 and remaining weekly evidence are outstanding.
+
+### Closed-book quiz — Question 7 accepted after prompting, 2026-09-23
+
+Student responds that the historical replay period must be checked; exact wording preserved in ASSIGNMENT.md. Combined with the initial expiry-volume comparison, accept Q7 after prompting. Coach adds equal historical time basis and use of information available at the selection time (e.g. previous completed session when choosing before open). No independent student mastery of that finer timing distinction is inferred. Continue to Q8 on zero permitted contract quantity; no total score or weekly completion assigned.
+
+### Closed-book quiz — Question 8 no-trade decision accepted, 2026-09-23
+
+Student correctly declines the trade because USD 28 planned risk per contract exceeds the USD 25 budget. Original chat answer preserved in ASSIGNMENT.md. The original Q8 zero-quantity decision is correct; the additional stop-adjustment question in the chat prompt remains unanswered. Request the student's explanation of whether a stop may be moved solely to fit the budget before closing the quiz review. No total score or weekly completion assigned; remaining weekly deliverables still need review.
+
+### Closed-book quiz — Question 8 accepted; quiz review complete, 2026-09-23
+
+Student correctly explains that moving the stop solely to meet budget would violate the strategy and risk an earlier exit from ordinary price movement. Exact follow-up preserved in ASSIGNMENT.md. Q8 accepted; all eight quiz items reviewed and accepted with remediation history preserved. This is not a claim of independently correct first-attempt answers. Section 7 of notes/contract-math.md was checked and remains blank. Study Log has not been inspected in this turn; no attendance is inferred. Next: student personal notes and new long/short examples, Study Log review, four-part weekly reflection, then final assessment against the curriculum. No weekly pass or numerical score assigned.
+
+### Student notes — Section 7 first review, 2026-09-23
+
+Read all five newly completed entries in notes/contract-math.md; preserve the student's wording unchanged.
+
+1. Tick/point: broadly correct. Clarify one point is a 1.00 change in quoted price, rather than an arbitrary chart graduation; for MES, 0.25 point/tick and four ticks/point. Multiple ticks per point is product-specific, not a universal rule.
+2. Notional/margin/planned risk: broadly correct. Margin is collateral to open and maintain the position. Planned risk is specifically the estimated loss to the initial stop plus fees and estimated adverse execution, not a guaranteed maximum.
+3. Examples: long entry 6000, target 6005; short entry 6000, target 5990. Direction is correct; quantity, execution assumptions and P&L calculations absent. Request completion using one MES, assumed actual entry/exit fills exactly at those prices, and USD 2 total round-trip fees. Instructor check: long +5 points / +20 ticks / USD 25 gross / USD 23 net; short favorable 10 points / 40 ticks / USD 50 gross / USD 48 net. These are hypothetical fills supplied for the follow-up, not evidence of an actual trade or guaranteed target execution.
+4. Student writes: “It depends if this is the p&l brut or net. p&l net does not include slippage because it is include in the exit price. The brut must include the estimated slippage. both cases must include round trip cost.” This is incorrect despite the earlier accepted quiz response: distinguish reference prices from actual fills separately from gross/net. Gross actual P&L uses actual entry/exit fills without deducting fees or a slippage allowance; net subtracts actual fees. Actual fills already incorporate execution effects on both sides. Forecast net P&L based on reference prices subtracts estimated costs/execution allowance. Cost-accounting understanding requires renewed application before weekly validation.
+5. Student describes an unwanted short from a remaining OCO order and proposes checking remaining orders are flat. Scenario mechanism is correct; exact statuses need correction: position Flat/zero, target fully Filled, linked stop Canceled, no residual associated orders. The student's past-tense example alone does not establish that a real or simulated incident occurred; no trade or safety failure is inferred without evidence. If intended as hypothetical, label it as such.
+
+Next: student revises point 4 in their own words, completes both numeric examples under the stated assumptions, and sharpens point 5 status language. Study Log not inspected; no attendance or weekly pass inferred.
+
+### Student notes — Section 7 revised submission, 2026-09-24
+
+Read revised notes and preserve student text unchanged. Point 2 now includes maintaining a position and risk to the stop; accepted. Point 3 correctly computes the requested one-MES examples with USD 2 round-trip fees: long 5 points / 20 ticks / USD 25 gross / USD 23 net; short favorable 10 points / 40 ticks / USD 50 gross / USD 48 net. Accept under the coach's stated assumption of fills exactly at entry/target prices. Point 5 now explicitly checks position Flat, objective entirely executed, stop canceled and no residual orders; the example is explicitly hypothetical. Accepted, with no actual trade incident inferred.
+
+Point 1 now says “A point represent 1$ of price value on the chart.” This incorrectly identifies an MES index point as one dollar. Clarify a 1.00 change in quoted index level (e.g. 6000 to 6001), with USD 5 P&L per MES contract, and note ticks per point varies by product. Point 4 now reproduces the coach's correct actual-fills versus reference-prices explanation. Correct notes text is accepted as reference material, but copying does not establish independent mastery after the recurrent confusion. Ask a new application: one MES long, actual entry 6100.25, actual exit 6104.75, USD 2 actual round-trip fees, original planned slippage allowance 2 ticks. Student must calculate net realized P&L and state treatment of that allowance. Instructor check: 4.50 points, USD 22.50 gross, USD 20.50 net, no extra allowance deduction. These answer values are coach-only until the student responds. No final weekly score or pass; Study Log still uninspected.
+
+### Student notes — Independent cost application reviewed, 2026-09-24
+
+Student response: “Net: ( 6104.75 - 6100.25) * 4 * 1.25 - 2 = 19.25$” and “Je ne prend pas en compte la provision de 2 ticks, car le slippage est compris dans le prix réellement exécuté.” Formula, units conversion and no-extra-slippage reasoning are correct; arithmetic result is incorrect. Coach correction: 4.50 points × 4 ticks/point = 18 ticks; × USD 1.25/tick = USD 22.50 gross; − USD 2 fees = USD 20.50 net. Record this as correct independent method with instructor-corrected arithmetic, not an entirely correct unassisted calculation. Recommend retaining the intermediate lines as an arithmetic check.
+
+Re-read point 1: student now writes “A point represent an increment of 1 on the chart, equal of 5$.” The point-versus-dollar confusion is corrected for the MES example; clarify that USD 5/point is specific to one MES contract, not universal. Section 7 accepted after these corrections, preserving original attempts and instructor contributions. Study Log, four-part weekly reflection and final assessment remain outstanding. No attendance inferred and no weekly pass assigned.
+
+### Weekly reflection and Study Log review, 2026-09-24
+
+Student's four-part reflection preserved in ASSIGNMENT.md: strength in planned risk and respecting the plan; recurrent arithmetic/transcription errors; no current uncertainty reported; interest in developing a strategy. Reflection received. Coach recommends explicit intermediate units and a second-method arithmetic check as the immediate practice goal. Formal setup specification occurs in curriculum Week 13; Week 3 is fundamental context. Self-reported clarity does not erase earlier conceptual remediation.
+
+Read journal/trading-journal.xlsx without changing or exporting it. Inspected Study Log rows 1–205; week-2 entries occupy rows 14–22. Headers A5:I5: Study ID, Date, Week, Topic, Completed, Key Learning, Open Question, Evidence Link, Duration (min). Missing Study IDs A14:A22; dates B14:B19; durations I15, I21, I22. Existing durations I14/I16/I17/I18/I19/I20 total 360 minutes, a partial recorded total only. Lab, Quiz and Part 7 entries exist (rows 20–22); recent dates and additional duration must not be inferred from chat timestamps. Some learning/evidence cells remain blank; links are generic text references. Request the missing actual session details, preserving unknowns or clearly labeled estimates rather than fabricating attendance. No workbook modifications made. Final scoring deferred until journal completeness can be assessed; no weekly pass assigned.
+
+### Study Log — Updated identifiers and dates verified, 2026-09-24
+
+Reopened the workbook read-only after the student's update. A14:A22 now contains unique IDs W02-1 through W02-9; B14:B22 has date values. The previously missing dates and identifiers are filled. Durations I15 (W02-2, risk questions), I21 (W02-8, Quiz), and I22 (W02-9, Part 7) are still blank. Existing recorded durations still total 360 minutes; this is not a complete weekly duration. No workbook edits or export performed. Request these three actual durations, or an explicit unknown/labeled estimate if exact duration cannot be recovered. No new missing-time requirement added; these are the same three omissions identified in the first review. Final assessment remains pending.
+
+## Final Week 2 assessment — 2026-09-24
+
+**Decision: Pass after remediation — 85/100.** Apply CURRICULUM.md's existing weights and 80/100 threshold. Scores below are instructor judgments based on the complete evidence and learning process, not counts of independently correct first attempts.
+
+### Final Study Log check
+
+Read journal/trading-journal.xlsx without modifying/exporting it. Study Log I15 now contains 30 minutes, I21 40 minutes, and I22 30 minutes. Nine week-2 records A14:I22 have IDs, dates, topics, completion statuses and durations. I14:I22 sums to **460 minutes (7 hours 40 minutes)**. This is student-reported recorded time, not independent attendance verification. W02-1 remains Partial, appropriately preserving an unfinished initial block later continued; not every study block must itself be marked complete. Key Learning/Evidence Link fields remain sparse on some rows; generic evidence references are traceable through this review. Journal is sufficient for assessment with the quality deduction below; do not invent additional hours to match the nominal eight-hour plan.
+
+### Weighted rubric
+
+| Component | Score | Evidence and rationale |
+|---|---:|---|
+| Concept comprehension | 19/25 | All eight quiz topics ultimately accepted. Distinctions involving account loss limits, offset/final settlement, stop-limit execution and historical volume required prompts/remediation; cost-accounting confusion recurred in notes before a correct independent method was demonstrated. |
+| Practical lab | 30/35 | All 25 written exercises reviewed and corrected, with fresh tick-value/risk/P&L checks. Dated expiry-volume comparison and unsubmitted one-contract bracket verified. Deduct for initial sign/cost/percentage errors and the later USD 19.25 versus USD 20.50 arithmetic result corrected by the coach. |
+| Deliverable quality | 18/20 | Contract-math reference and student explanations, worked long/short examples, platform screenshots and weekly reflection are present. Unit/status wording needed correction; some reference wording was reproduced rather than independently formulated. |
+| Journal completeness | 8/10 | Nine session records now include required identifiers, dates and durations; 460 minutes recorded. Learning details and evidence references could be more precise. |
+| Process and risk compliance | 10/10 | Student demonstrates skip when one contract exceeds budget, refuses to move the stop solely to fit budget, and corrects OCO/position checks. Simulation/account evidence is present. No critical operational safety failure is evidenced in the reviewed work; screenshots alone are not proof of every historical order action. |
+| **Total** | **85/100** | **Above the 80/100 weekly threshold.** |
+
+### Critical-calculation condition
+
+Rechecked the final submitted critical items: Q1–5 and Q14–18 are **10/10 correct after remediation**, including costs in planned stop risk. Values: MES tick USD 1.25, MES move 15 ticks/USD 18.75; MNQ tick USD 0.50 and move USD 7; MGC tick USD 1 and move USD 23; MCL tick USD 1 and move USD 27. Stop-risk totals: Q14 USD 24.50; Q15 USD 25.75 (skip); Q16 USD 23; Q17 USD 24; Q18 USD 26 (skip). Fresh MGC/MCL tick-value checks and MCL USD 27 risk rejection, documented earlier, support remediation beyond merely copying corrections. The later actual-fill P&L arithmetic mistake is preserved and scored; it is not silently presented as a correct first attempt. Critical risk/tick calculation requirement is met on the reviewed corrected set and rechecks, not as a claim of error-free performance throughout the week.
+
+### Next learning step
+
+Proceed to Week 3 fundamental context and observation. Carry forward the arithmetic check: points → ticks → gross dollars → net dollars, with gross cross-checked using points × multiplier. Revisit gross/net, stop-limit and OCO distinctions briefly during future practice. Formal Week 1 validation and the Week 4 Foundation Gate remain separate; this pass does not change live/simulation execution permissions or validate a trading setup.

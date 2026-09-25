@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-24 — Week 2 final assessment
+
+- Recorded Week 2 pass after remediation, 85/100, using the existing curriculum weights and critical-calculation condition.
+- Verified completed Study Log identifiers, dates and durations: nine blocks, 460 recorded minutes; workbook left unchanged.
+- Preserved original errors, instructor corrections and evidence limits in `exercises/week-02/REVIEW.md`.
+- Updated progress to Week 3 as the next lesson. Week 1 review, later gates and trading permissions remain unchanged; no setup test set is affected.
+
 ## 2026-09-15 — Week 1 notes corrected
 
 - Preserved Olivier's original notes in `notes/archive/week-01-futures-foundations.original-2026-09-15.md` before editing.
