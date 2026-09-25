@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-24 — Week 3 coaching started
+
+- Added the fundamental-context instructor reference and four-session assignment, aligned with the existing Week 3 curriculum.
+- Assigned five sourced catalyst briefs using the session-plan template, with pre-event information cutoffs and separate post-event audits.
+- Started with a fictional CPI interpretation exercise; no student answers, attendance, score or completion inferred.
+- Updated progress to Week 3 in progress. Week 1 validation remains pending; curriculum and trading permissions are unchanged.
+
 ## 2026-09-24 — Week 2 final assessment
 
 - Recorded Week 2 pass after remediation, 85/100, using the existing curriculum weights and critical-calculation condition.
