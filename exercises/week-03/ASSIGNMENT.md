@@ -1,6 +1,6 @@
 # Week 3 — Fundamental Context Assignment
 
-**Status:** Started; no student answers or score recorded  
+**Status:** Parts A/B reviewed after coaching and remediation 2026-09-27; first Part C MES brief in preparation; signed calculations and expiry comparisons to recheck in briefs; no weekly score
 **Prerequisite:** Week 2 passed after remediation, 85/100, 2026-09-24  
 **Workload:** Four evening sessions of two hours; extend if evidence takes longer  
 **Operating mode:** Observation only; no order submission required
@@ -40,7 +40,7 @@ Answer in your own words:
 3. Classify these statements: (a) the released figure is +0.4%; (b) the surprise could push expected rates higher; (c) MES must fall. Which is a fact, a conditional hypothesis or an unjustified assertion?
 4. Does the five-minute rally prove that the release was favorable for equities? Explain what is observed and what remains unknown.
 
-**Student answers:** Pending.
+**Student answers:** Attempts and feedback preserved in [REVIEW.md](REVIEW.md). Part A accepted after guided remediation on 2026-09-27, including the price-level distinction; not an unassisted perfect score.
 
 ## Part B — Transfer exercises
 
@@ -51,7 +51,7 @@ These are fictional examples, not market data.
 3. Oil spot = $69/barrel, nearby futures = $70/barrel, deferred futures = $72/barrel, all at the same time and with comparable specifications. Compute spot-minus-nearby basis; classify the curve between the two futures. Explain why $72 is not a guaranteed future spot price.
 4. You cannot find a dated pre-release survey for a historical event. Explain how you would record expectations without inventing a consensus.
 
-**Student answers:** Pending.
+**Student answers:** Attempts and feedback preserved in [REVIEW.md](REVIEW.md), 2026-09-27. Question 1 interpretation accepted after guided correction; signed subtraction still requires an independent recheck in a later brief. Question 2 accepted with instructor refinements. Question 3 accepted after remediation with instructor clarification of comparison references; revisit expiry comparisons in briefs. Question 4 accepted with the refinement to explicitly label unverifiable consensus as unknown.
 
 ## Part C — Five briefs using the existing session template
 
