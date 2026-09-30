@@ -171,3 +171,83 @@ Student submission, verbatim:
 **Decision:** Question 4 accepted with documentation refinement. Parts A/B reviewed with coaching and remediation, not an unassisted exam. Begin Part C: first MES catalyst brief. No weekly pass or score; five completed briefs, annotation evidence, quiz and journal remain pending. Retain signed-subtraction and expiry-comparison rechecks in practical work.
 
 **Practical preparation:** Created `research/week-03/01-MES.md` from the session-plan structure. Proposed case: CPI release scheduled for 2026-09-11 at 08:30 Eastern, verified against the BLS September calendar; outcome not retrieved. Historical data availability, exact contract, chart time zone and prior knowledge of outcome remain unverified. Draft is instructor preparation, not student evidence.
+
+## Part C — Historical contract selection, 2026-09-28
+
+Student reports September 10 volumes of 1,071,765 for MESU26 and 37,408 for MESZ26 and selects September for the September 11 exercise. Reasoning accepted: approximately 28.65 times as much reported prior-session volume. Figures are student-reported, without screenshot verification. Details and preparation history recorded in `research/week-03/01-MES.md`.
+
+Proceed to a paused MESU26 one-minute historical replay before the 08:30 announcement. No completed brief, scenario, replay screenshot or post-event audit yet. Selection is specific to the historical date; it does not establish current tradability or event-time liquidity. Signed-subtraction and expiry-price-comparison checks remain separate and pending.
+
+## Part C — Pre-event screenshot reviewed, 2026-09-28
+
+User screenshot saved in `journal/screenshots/week-03/2026-09-28_MESU26_2026-09-11_replay-paused-0825.png`. It verifies MESU26-CME, 1 Min, chart #2, [Sim], paused Single Chart / Standard Replay at requested 2026-09-11 08:25:00; latest displayed historical data 08:24:59. No post-announcement bars are visible. The configured time zone and continuous-contract field are not visible; no independent verification of those fields or order history inferred.
+
+Instructor added the original July Core CPI reading and an attributed September 10 preview expectation to the brief, with source and consensus-methodology limitations. Student scenarios, final freeze, event annotations and audit remain pending. Next: student writes above/below-expectation scenarios and measurable price criteria under the proposed P0/T+5/T+15 protocol. This is partial lab evidence, not a completed brief or weekly pass.
+
+## Part C — First student scenarios, 2026-09-29
+
+Original wording preserved in `research/week-03/01-MES.md`. Student proposes MES declining through T+15 after Core CPI above +0.2%, and the inverse reaction below +0.2%. The higher-inflation case includes a conditional Fed/borrowing/revenue mechanism.
+
+**Assessment:** The conditional directional hypotheses are plausible. Refine the mechanism to expectations of financing costs and future activity/valuation rather than an immediate revenue decline. The actual policy decision and causal contribution are not established by MES prices. The proposed path through T+15 remains ambiguous and neither scenario includes the requested explicit invalidation.
+
+**Next:** Use the previously supplied T+5/T+15 completed closes and P0 definition. Instructor proposes both closes below P0 for A and both above P0 for B; student must specify the contradicting observations and equality treatment before final freeze. Original scenarios remain preserved. Brief is not complete and replay progression is not inferred. No weekly score or pass assigned.
+
+## Part C — Invalidation attempt, 2026-09-29
+
+Verbatim submission preserved in the first MES brief. Student says both checkpoint prices above P0 would invalidate A, both below P0 would invalidate B, and equality would indicate market indifference.
+
+**Assessment:** The opposite-side cases are sufficient but too restrictive to describe full invalidation. With both checkpoints required to satisfy a strict inequality, either checkpoint contrary to that inequality (including equality) contradicts the prediction. Equal price does not establish indifference; the path and motivations remain unknown.
+
+**Follow-up:** Fictional A-activated example with P0 7600, T+5 7598, T+15 7601; evaluate the two-checkpoint criterion and identify the contradicting observation. Then evaluate T+15 equal to 7600. This is not the actual replay outcome. Brief freeze and further replay remain pending; no pass or score inferred.
+
+## Part C — Invalidation recheck accepted and pre-event freeze, 2026-09-29
+
+Student correctly identifies T+15 above P0 and T+15 equal to P0 as contradictions of A. Verbatim answers preserved in the brief. Accept after coaching; this is not an unassisted assessment of both scenarios.
+
+Operational rules frozen v1 at clock-verified decision time 2026-09-30 01:49:35 UTC (September 29, 21:49:35 Toronto). A: actual Core CPI above attributed +0.2% benchmark, both checkpoint closes below P0; B: below benchmark, both above P0. Either wrong-side or equal checkpoint contradicts the activated scenario. Numerical P0 and post-event prices remain pending. Preserve a pre-event snapshot before adding release facts and audit observations. No weekly pass or score assigned.
+
+## Part C — First post-event readings, 2026-09-29
+
+Student reports 08:29 = 7653.50, 08:34 = 7642.75 and 08:44 = 7646.50; verbatim submission and detailed evidence assessment appended to the living MES brief. On those reported values, both checkpoints meet activated scenario A's below-P0 criterion. No causal or strategy validation follows from this single observation.
+
+The supplied screenshot selects the 08:45 bar (Last 7646.00), not the requested 08:44 bar. This does not establish that the student's reported 08:44 value is incorrect. Preserve reported values and request the correctly selected bar for verification; do not silently substitute a different checkpoint. Screenshot saved in journal/screenshots/week-03/2026-09-29_MESU26_post-event_cursor-0845.png.
+
+Next: student supplies 08:44 Tool Values evidence and independently calculates the signed changes P5 − P0 and P15 − P0 in index points. Arithmetic, complete brief/audit and weekly assessment remain pending. No score, study duration or completed brief inferred; frozen snapshot unchanged.
+
+## Part C — P15 verified and signed price arithmetic accepted, 2026-09-29
+
+Student correctly calculates P5 − P0 = −10.75 and P15 − P0 = −7 in index points. Original wording preserved in the MES brief. Accept the practical signed-subtraction recheck on submitted prices; clarify that the final verbal expression must retain the negative sign or explicitly say "a decline of." This does not separately establish mastery of subtracting negative inventory changes.
+
+New screenshot selects the completed 08:44 bar and verifies Last = 7646.50. P0/P5 remain student-reported. Evidence saved as journal/screenshots/week-03/2026-09-29_MESU26_post-event_cursor-0844.png. Scenario A's two checkpoint inequalities are met on those inputs.
+
+Next: student writes the post-event interpretation and process improvement, distinguishing the checkpoint result from a causal claim. Expiry-price comparison recheck, event annotation, complete briefs, quiz and journal remain pending. No weekly score or pass assigned.
+
+## Part C — Student audit reviewed, 2026-09-29
+
+Verbatim answers preserved in the living MES brief. Actual-case conclusion is correct but the student writes P5 "or" P15 below P0; require "and" to preserve the frozen two-checkpoint rule. Earlier correct mixed/equality answers remain evidence, with this later wording inconsistency recorded.
+
+Student rejects proof of the Fed cause but explains this through the observation horizon and refers to a Fed revision. Clarify that the event is CPI, and a longer price window alone would not identify expectations or isolate causality. Request a brief reformulation of the rule and causal limitation.
+
+Accept checking the Tool Values timestamp as a concrete improvement; supplement the student's 08:34/08:44 with P0 at 08:29 and reading Last on a completed bar. Audit under review; event annotation and brief completion pending. No weekly score assigned.
+
+## Part C — Interpretation clarification accepted, 2026-09-29
+
+Student now explicitly requires both closes below P0 and rejects identification of a Fed-related cause from the chart alone. Verbatim answers preserved in the brief. Accept after coaching; correct the second sentence's causal direction: anticipation of a Fed decision is the proposed cause of the MES move, not a causal conclusion established by the chart. No additional repetition requested at this stage.
+
+Short interpretation and timestamp-check process improvement accepted after remediation. Continue to event annotation: readable dated MESU26 one-minute chart, pre-event / 08:30 publication / post-event sections and the three fixed price checkpoints. P0/P5 and New York setting remain reported; P15 visually verified. Brief/lab not yet complete; no weekly score or pass assigned.
+
+## Part C — Annotation v1 reviewed, 2026-09-30
+
+Saved student screenshot as journal/screenshots/week-03/2026-09-30_MESU26_event-annotation-v1.png. Contract, interval, historical date, New York label and three numerical checkpoints are readable. P0 text incorrectly says 08:39; correct to 08:29. Publication arrow appears at 08:31 rather than 08:30; verify the selected bar's Begin Time and reposition the marker. Add explicit before/after-publication section labels. Full evidence assessment in the living MES brief.
+
+Await corrected screenshot; retain accepted arithmetic and interpretation. Annotation/brief not yet complete. Frozen snapshot unchanged; no weekly score assigned.
+
+## Part C — Annotation v2 reviewed, 2026-09-30
+
+Saved journal/screenshots/week-03/2026-09-30_MESU26_event-annotation-v2.png. P0 time corrected to 08:29 and CPI arrow aligned with the 08:30 bar, also selected in Tool Values. Both material corrections accepted. "Avant publication" is present; move clearly left of the event for readability and add the missing "Après publication" on the right. Only annotation finishing remains at this step; accepted arithmetic and interpretation need not be repeated. No brief completion or weekly score inferred.
+
+## Part C — Final annotation and first guided case accepted, 2026-09-30
+
+Final screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_event-annotation-final.png. All requested temporal sections and checkpoint labels are readable and correctly placed; Tool Values again verifies P15. Accept annotation and the first guided case after remediation. Detailed final audit and evidence limitations appended to the living brief; frozen snapshot untouched. No further screenshot refinements requested.
+
+Progress: one of five cases accepted as guided work, not independent strategy validation. P0/P5 and certain settings remain reported rather than independently verified. Four cases, expiry-price comparison recheck, quiz and study journal remain outstanding. No score or study duration inferred. Next: employment-report reasoning for MES case 2, considering competing conditional effects before selecting or revealing a release.

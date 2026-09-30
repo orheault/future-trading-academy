@@ -2,7 +2,7 @@
 
 **Current week:** 3 — fundamental context in progress  
 **Current phase:** I — Futures Foundations  
-**Status:** Week 3 Parts A/B reviewed after coaching and remediation (2026-09-27); first MES brief in preparation; signed calculations and expiry comparisons to recheck in briefs; Week 2 passed after remediation (85/100); Week 1 validation pending
+**Status:** Week 3 first guided MES case and final event annotation accepted after remediation, 2026-09-30 (1/5 cases); next: employment-report reasoning for case 2; study journal pending; Week 2 passed after remediation (85/100); Week 1 validation pending
 **Current gate:** Foundation Gate at Week 4  
 **Primary instrument:** MES  
 **Active setup:** None — research only  
@@ -59,7 +59,7 @@
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
 | 2 | Contract specifications and math | Passed after remediation | 85 | Yes | Final assessment 2026-09-24 in exercises/week-02/REVIEW.md; 10/10 final critical calculation items correct after remediation; nine Study Log blocks total 460 recorded minutes; retain arithmetic and execution-cost checks |
-| 3 | Fundamental context | In progress |  | No | Parts A/B reviewed with coaching/remediation 2026-09-27; first MES brief draft prepared, no completed briefs; data/contract checks pending; recheck signed subtraction and expiry comparisons in briefs; quiz, lab and journal pending; observation only |
+| 3 | Fundamental context | In progress |  | No | Parts A/B reviewed with coaching; first guided MES case and event annotation accepted after remediation 2026-09-30 (1/5); evidence limits documented; four cases, expiry-price comparison recheck, quiz and journal pending; observation only |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |
 | 6 | Auction Market Theory | Not started |  | No |  |
