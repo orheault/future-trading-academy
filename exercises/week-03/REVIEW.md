@@ -251,3 +251,82 @@ Saved journal/screenshots/week-03/2026-09-30_MESU26_event-annotation-v2.png. P0 
 Final screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_event-annotation-final.png. All requested temporal sections and checkpoint labels are readable and correctly placed; Tool Values again verifies P15. Accept annotation and the first guided case after remediation. Detailed final audit and evidence limitations appended to the living brief; frozen snapshot untouched. No further screenshot refinements requested.
 
 Progress: one of five cases accepted as guided work, not independent strategy validation. P0/P5 and certain settings remain reported rather than independently verified. Four cases, expiry-price comparison recheck, quiz and study journal remain outstanding. No score or study duration inferred. Next: employment-report reasoning for MES case 2, considering competing conditional effects before selecting or revealing a release.
+
+## Part C — Employment-case preparation: competing channels, 2026-09-30
+
+Student submission, verbatim (leading HTML space in answer 2 normalized):
+
+1. Avec des créations d'emplois supérieures aux attentes, cela indique une augmentation de la production des entreprises, ce qui favorise la création de richesse.
+2. S'il y a une trop grande inflation, la fed peut augmenter les taux d'intérêt pour limiter la demande.
+
+Assessment: identifies activity and monetary-policy channels, but explanations remain incomplete. A positive employment surprise does not itself measure or prove greater production; it may lead participants to revise expected household income, demand and company earnings upward. The second answer is a broadly correct conditional inflation-policy statement but omits the link from the employment surprise to revised policy expectations and equity prices. Strong employment does not mechanically prove inflation or a forthcoming rate hike. Participants might instead expect fewer/delayed cuts; market rates and valuations can adjust before an actual policy decision.
+
+Instructor explanation grounded in [Federal Reserve — monetary-policy goals and transmission](https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm), checked 2026-09-30. Employment-specific chains are conditional teaching hypotheses, not a historical-event finding. No employment date, actual figure or price outcome revealed.
+
+Next fictional transfer question: participants initially expect two rate cuts, then only one after stronger-than-expected employment; the Fed has made no new decision. Explain why this revision could nevertheless weigh on MES. Assess the student's link between revised expectations and equity valuation/financing conditions; do not require advanced valuation mathematics. First case remains accepted; second case not yet complete and weekly score remains pending.
+
+### Employment reasoning follow-up — 2026-09-30
+
+Student response, verbatim:
+
+> Cette révision indique une activité plus solide que prévue. Les investisseurs anticipe peut-être une augmentation du taux d'intérêt ou le status quo.
+
+Assessment: recognizes expectations but substitutes a hike or unchanged rates for the fictional question's stated one-cut outcome. The missing link to equity prices remains instructor-assisted: fewer cuts means a higher expected rate path than previously anticipated, even if rates decline; this could imply less favorable financing conditions and lower present valuations of future earnings. Stronger activity remains an interpretation of the employment surprise, not proven production growth.
+
+Instructor numerical illustration (fictional, not student arithmetic): starting from 4.00%, two cuts of 0.25 percentage point imply 3.50%; one implies 3.75%, which is lower than today but higher than previously expected. No further recitation required now; retain the rate-expectations/equity link for transfer assessment in the second case. Do not mark it independently mastered.
+
+Calendar-only preparation: BLS September calendar, checked 2026-09-30, schedules the August Employment Situation for September 4 at 08:30 Eastern. Created 02-MES.md as an unfrozen instructor draft. Ask whether the student already knows this report's outcome or the MES reaction before proceeding. Data availability and contract selection remain pending; no release outcome fetched.
+
+### Case 2 — prior knowledge and contract-selection task, 2026-09-30
+
+Student answers "non" to prior knowledge of the September 4 release figures or MES reaction. Record this self-report in 02-MES.md. Next task: report September 3 contract-specific daily volumes for MESU26 and MESZ26 and justify a contract choice. Reuse the learned method, not the later September 10 values. No release figures or post-event chart revealed; contract choice, historical coverage, scenarios and freeze pending. First guided case remains the only accepted case (1/5).
+
+### Case 2 — contract choice accepted, 2026-09-30
+
+Student reports September 3 volumes MESU26 941,521 and MESZ26 5,545 and chooses MESU26 for its greater volume. Accept the comparison; approximately 169.80 times as much reported volume, instructor-computed. Preserve submission verbatim in 02-MES.md and retain reported-data limitations. Next: MESU26 one-minute replay paused at September 4 08:25 New York, with selected chart settings and pre-event coverage checked. Request screenshot and confirmation of time zone/Continuous Contract=None. No actual release or price outcome revealed; one of five cases remains accepted. Expiry-price comparison recheck remains separate.
+
+### Case 2 — pre-event replay verified, 2026-09-30
+
+Screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_2026-09-04_replay-paused-0825.png. Correct MESU26 one-minute chart and paused 08:25 start confirmed, latest data 08:24:59; selected Tool Values bar 07:38 is not a requested checkpoint. No P0 inferred. New York/None confirmation requested asynchronously; pending until student answers.
+
+Original August 7 BLS report supplies pre-event July payrolls −23,000 and unemployment 4.1%. ADMISI September 4 preview supplies candidate +55,000/4.1% expectations, but exact publication time and survey methodology are unverified. Preserve as attributed teaching input, not yet a verified historical threshold. Instructor encountered post-release snippets during preview search; disclosed and documented in 02-MES.md without copying actual results into pre-event inputs. No student scenario freeze yet.
+
+Next: signed subtraction +55,000 − (−23,000), with correct jobs unit and distinction between expected change versus prior and actual surprise. Settings/source timing and student scenarios remain pending; one of five cases accepted, no score or duration inferred.
+
+### Case 2 — subtraction of a negative accepted, 2026-09-30
+
+Student calculates +78,000 correctly and identifies improvement relative to the previous month. Verbatim submission retained in 02-MES.md. Accept the outstanding subtraction-of-a-negative recheck. Clarify that expected August job creation is +55,000; +78,000 is the change in monthly net additions relative to July, not an actual surprise.
+
+ADMISI metadata verifies a stated original publication time of September 4 06:11:12 New York, but also a September 10 modification. No historical snapshot establishes original content. Select +55,000 as an attributed pedagogical benchmark with these limitations, not verified consensus; instructor exposure remains disclosed. Next: student writes above/below-benchmark scenarios, channel, direction, two-checkpoint inequalities and invalidation. Preserve freedom to choose direction; settings confirmation and freeze pending. No weekly score assigned.
+
+### Case 2 — scenarios submitted with post-event prices, 2026-09-30
+
+Verbatim submission preserved in 02-MES.md. Student chooses stronger activity / both prices above P0 for A and weaker activity / both below for B. Accept the proposed directions as conditional growth-channel hypotheses. Invalidation remains incomplete: student requires both checkpoints to contradict, omitting mixed outcomes and equality. Instructor supplies the correct complements after receiving prices; do not record independent mastery or a prior freeze.
+
+Reported P0 7759.00, P5 7737.75 and P15 7739.50 imply −21.25 and −19.50 points (instructor calculation). Both are below P0; this matches B's price condition, but release activation cannot be inferred from the move. Values not screenshot-verified; actual publication not formally verified/revealed.
+
+No finalized saved rules preceded this submission of observed prices. Ask whether the student wrote the scenario draft before seeing the bars; do not assume chronology from message order or accuse hindsight fitting. Record the case as coached retrospective review from this stage, with no retroactive freeze. New York/None confirmation still pending. One of five cases accepted; second case incomplete, no weekly score assigned.
+
+### Case 2 — chronology clarified, settings confirmed, official result, 2026-09-30
+
+Student explicitly states scenarios were written before viewing post-announcement bars and confirms New York/Continuous Contract=None. Verbatim clarification in 02-MES.md. Accept the core pre-observation hypothesis sequence as reported; do not imply hindsight fitting. Formal invalidation review/freeze had not occurred, which is distinct from inventing a hypothesis afterward. Explain the intermediate finalization step without requiring repetition of this case.
+
+Original September 4 BLS release now verified: August payrolls +162,000, unemployment 4.1%. Compared with attributed teaching benchmark +55,000, difference is +107,000 jobs (instructor calculation). A activates; both reported checkpoint prices are below P0 and contradict its predicted rise. B is not activated. This contradiction also satisfies the student's original narrower invalidation; the after-observation correction does not determine the outcome here.
+
+Next: short student audit separating the failed directional prediction from an unproven alternative explanation. Post-event screenshot and full second-case completion pending; no score or study duration inferred. First guided case remains accepted (1/5).
+
+### Case 2 — short audit accepted, 2026-09-30
+
+Student identifies A as applicable above +55,000, reports a decline by 08:35 and proposes anticipated higher rates as an explanation. Verbatim submission preserved in 02-MES.md. Accept interpretation with timing refinement: checkpoint closes are below P0; the readings alone do not establish the decline's start time or a continuous trajectory. Rate expectations remain an unverified hypothesis, not a causal finding or replacement for original A.
+
+Request one post-event MESU26 one-minute screenshot covering the event and checkpoints, with Tool Values on completed 08:44 (reported Last 7739.50). No need to repeat the already accepted full annotation lab from case 1. Second-case completion pending evidence; no weekly score assigned.
+
+### Case 2 — post-event image received, 2026-09-30
+
+Screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_2026-09-04_post-event-cursor-0841.png. Chart covers the release and checkpoints and shows the post-release decline. Tool Values selects 08:41, Last 7742.50, not requested 08:44. Retain the reported P15 7739.50 as unverified; the annotation alone is not a value-window verification. Request only cursor repositioning to 08:44 and a capture of its actual Last reading. No repeated annotation or arithmetic exercise. Second-case completion pending this check; no score inferred.
+
+### Case 2 — P15 verified and guided case accepted, 2026-09-30
+
+Corrected screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_2026-09-04_post-event-cursor-0844.png. Completed 08:44 bar Last 7739.50 verified. Accept the second guided case after remediation, with original hypotheses, actual scenario contradiction, source limitations and chronology preserved in the brief. P0/P5 remain reported. No further screenshot work requested for this case.
+
+Progress: two of five guided cases accepted. Mixed/equality invalidation and correct timestamp selection remain transfer targets; no independent mastery inferred from coach corrections. Third MES, MGC, MCL, expiry-price comparison recheck, quiz and study journal remain pending; no weekly score. Proposed next MES event: September 10, 2026 PPI at 08:30 Eastern, per the previously consulted BLS September calendar. Ask about prior knowledge before accessing its actual release or reaction; date chosen by event type, not observed market outcome.
