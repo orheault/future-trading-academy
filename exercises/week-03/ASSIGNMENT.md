@@ -1,6 +1,6 @@
 # Week 3 — Fundamental Context Assignment
 
-**Status:** Parts A/B reviewed after coaching; two guided Part C MES cases and event annotation accepted after remediation 2026-09-30 (2/5 cases); signed arithmetic accepted; third MES, MGC, MCL, expiry-price comparison recheck, quiz and study journal pending; no weekly score
+**Status:** Parts A/B reviewed after coaching; three MES and one MGC guided Part C cases accepted after coaching/remediation as of 2026-10-06 (4/5 cases); event annotation and expiry-price comparison recheck accepted; arithmetic evidence and corrections preserved; MCL, quiz and study journal pending; no weekly score
 **Prerequisite:** Week 2 passed after remediation, 85/100, 2026-09-24  
 **Workload:** Four evening sessions of two hours; extend if evidence takes longer  
 **Operating mode:** Observation only; no order submission required

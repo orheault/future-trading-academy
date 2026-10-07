@@ -2,7 +2,7 @@
 
 **Current week:** 3 — fundamental context in progress  
 **Current phase:** I — Futures Foundations  
-**Status:** Week 3 two guided MES cases accepted after remediation (2/5), 2026-09-30; case 2 P15 verified and original contradicted hypothesis preserved; next proposed case: September 10 PPI, prior-knowledge check pending; quiz and study journal pending; Week 2 passed after remediation (85/100); Week 1 validation pending
+**Status:** Week 3 three MES and one MGC guided cases accepted after coaching (4/5) as of 2026-10-06; expiry-price comparison accepted; MCL prior report verified, expectation unknown, zero-change teaching threshold proposed and student scenarios pending; quiz and journal pending; Week 2 passed after remediation (85/100); Week 1 validation pending
 **Current gate:** Foundation Gate at Week 4  
 **Primary instrument:** MES  
 **Active setup:** None — research only  
@@ -59,7 +59,7 @@
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
 | 2 | Contract specifications and math | Passed after remediation | 85 | Yes | Final assessment 2026-09-24 in exercises/week-02/REVIEW.md; 10/10 final critical calculation items correct after remediation; nine Study Log blocks total 460 recorded minutes; retain arithmetic and execution-cost checks |
-| 3 | Fundamental context | In progress |  | No | Parts A/B and two guided MES cases accepted with coaching/remediation (2/5); event annotation accepted; evidence/process limits documented; third MES, MGC, MCL, expiry-price comparison recheck, quiz and journal pending; retain invalidation/timestamp transfer practice; observation only |
+| 3 | Fundamental context | In progress |  | No | Parts A/B and four guided cases accepted with coaching/remediation (3 MES, 1 MGC; 4/5); event annotation and expiry-price comparison accepted; evidence/process limits documented; MCL, quiz and journal pending; retain arithmetic/invalidation/timestamp transfer practice; observation only |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |
 | 6 | Auction Market Theory | Not started |  | No |  |

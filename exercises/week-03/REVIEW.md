@@ -330,3 +330,127 @@ Screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_2026-09-04_pos
 Corrected screenshot saved as journal/screenshots/week-03/2026-09-30_MESU26_2026-09-04_post-event-cursor-0844.png. Completed 08:44 bar Last 7739.50 verified. Accept the second guided case after remediation, with original hypotheses, actual scenario contradiction, source limitations and chronology preserved in the brief. P0/P5 remain reported. No further screenshot work requested for this case.
 
 Progress: two of five guided cases accepted. Mixed/equality invalidation and correct timestamp selection remain transfer targets; no independent mastery inferred from coach corrections. Third MES, MGC, MCL, expiry-price comparison recheck, quiz and study journal remain pending; no weekly score. Proposed next MES event: September 10, 2026 PPI at 08:30 Eastern, per the previously consulted BLS September calendar. Ask about prior knowledge before accessing its actual release or reaction; date chosen by event type, not observed market outcome.
+
+### Case 3 — prior knowledge and grouped setup task, 2026-09-30
+
+Student answers "Non" to knowing the September 10 PPI figures or MES reaction. Recorded as self-report in new 03-MES.md instructor draft. No actual report or reaction retrieved. Next student task groups previously learned steps: September 9 MESU26/MESZ26 contract volumes, justified expiry selection, and one-minute replay paused September 10 08:25 New York with None/Start Paused. Request volumes, choice and screenshot together.
+
+Clarify sequencing: remain before 08:30 until pre-event sources and scenarios are ready, invalidations reviewed and the brief explicitly saved as final. No checkpoint prices requested yet. Routine setup requires no extra approval between volume selection and replay preparation. Two of five cases remain accepted; no study duration or score inferred.
+
+### Case 3 — setup accepted and PPI definition introduced, 2026-09-30
+
+Student reports MESU26 937,349 versus MESZ26 10,835 for requested September 9 volumes and selects MESU26. Accept volume reasoning; approximately 86.51 times as much (instructor calculation), values not independently verified. Verbatim submission in 03-MES.md.
+
+Saved screenshot journal/screenshots/week-03/2026-09-30_MESU26_2026-09-10_replay-paused-0825.png confirms correct symbol, one-minute chart and paused September 10 08:25 setup with latest chart data 08:24:59. Tool Values shows an unrelated August 19 bar; ignore for this case, do not infer P0 or request repeat setup. Prior New York/None report retained, settings not visible in screenshot.
+
+Selected headline final-demand PPI monthly, seasonally adjusted. BLS original August 13 release gives July 0.0% monthly and +4.7% yearly unadjusted. Definition and sources in the brief. No actual September 10 release retrieved. Next conceptual check: coexistence of monthly zero and positive yearly change, and distinction from CPI. Expectation research, scenarios and formal freeze remain pending; two of five cases accepted.
+
+### Case 3 — horizon answer and PPI definition clarification, 2026-10-03
+
+Original answers preserved in 03-MES.md. Accept the student's reasoning that unchanged monthly prices can coexist with an annual increase, while correcting September to July: July-versus-June monthly, July-versus-July-prior-year annual. Publication date August 13 is distinct from reference month; the upcoming historical September 10 release concerns August.
+
+Student states uncertainty about PPI and distinguishes producer input purchases from sales. Clarify PPI selling prices received by domestic producers versus CPI household purchase prices, using a simplified bakery/shop example. Do not mark the CPI/PPI distinction independently mastered yet. Next fictional check: bakery-to-shop price $2.00 to $2.20, household price unchanged at $3.00; identify which perspective changes and whether consumer price rises. Keep replay paused, actual unrevealed, expectations/scenarios pending; two of five cases accepted, no score/duration inferred.
+
+### Case 3 — PPI/CPI distinction accepted and scenario task, 2026-10-03
+
+Student correctly says the consumer still pays $3 while the price received by the producer increased. Verbatim response in 03-MES.md. Accept this distinction after coaching; no aggregate index calculation inferred.
+
+Direct ADMISI September 10 preview supplies attributed +0.4% headline monthly expectation. Metadata original publication 05:25:32 New York precedes 08:30, but modification 11:02:58 follows it; original text not independently archived. Retain as pedagogical benchmark with limitation, not verified survey consensus. Exact measure stays headline final-demand monthly seasonally adjusted, prior July 0.0%; no actual PPI or MES outcome retrieved for case 3.
+
+Next: student drafts A above +0.4% and B below +0.4%, mechanism, direction, both checkpoint inequalities and complete invalidation including equality. Keep 08:29/08:34/08:44 protocol proposed and replay paused pending finalization and saved rules. Two of five cases accepted; no score or study duration inferred.
+
+### Case 3 — first scenarios reviewed, 2026-10-05
+
+Verbatim submission preserved in 03-MES.md. Student clearly predicts both checkpoints below P0 for above-benchmark PPI (A) and both above P0 for below-benchmark PPI (B). Preserve these directions. Refine inflation-to-revenue claim: producer selling-price growth alone does not imply reduced revenues; instructor supplies possible rate-expectations/valuation mechanism conditionally. Clarify that below +0.4% can still mean positive monthly price growth.
+
+Student also predicts flat MES if release matches the forecast. Treat this as an additional proposed prediction, not a demonstrated relationship or an invalidation. Instructor recommends retaining A/B only, with neither activated at exact +0.4% and no flat-price implication. Explicit A/B invalidations are missing; request both with one-checkpoint/equality cases. Replay remains paused; no freeze, actual release, score or study duration inferred.
+
+### Case 3 — OR rule improved, equality still missing, 2026-10-05
+
+Student correctly says A is contradicted if either checkpoint is above P0 and B if either is below P0; verbatim response in the brief. Recognize correct OR structure and mixed-outcome handling. Equality is still omitted despite the prompt. Instructor supplies >= / <= complements and asks one targeted check: A active, P5 = P0, P15 < P0; does the prediction hold, and why? No historical prices or actual PPI revealed. Freeze remains pending this clarification; two of five cases accepted, no score/duration inferred.
+
+### Case 3 — equality accepted, rules frozen and actual revealed, 2026-10-05
+
+Student correctly answers that P5 equal to P0 contradicts A's strict prediction; verbatim response retained in 03-MES.md. Accept after coaching; B's symmetric equality complement remains instructor-assisted. Final operational rules saved to 03-MES.pre-event-v1.md before actual-release retrieval and any submitted post-event prices. Clock-verified freeze decision: October 5 21:09:24 Toronto / October 6 01:09:24 UTC. Original drafts remain preserved, including the superseded flat-price idea at an in-line release.
+
+Original BLS September 10 release reports August headline final-demand monthly seasonally adjusted PPI +0.4%, equal to the attributed pedagogical benchmark. Neither A nor B activates; an in-line release does not imply unchanged MES. July is revised to +0.1% in this release; preserve original July 0.0% in the pre-event snapshot. Source and snapshot hash recorded in the living brief; benchmark provenance limitation retained.
+
+Student may now advance replay to September 10 08:45 New York, pause, and report completed-bar Last values for 08:29, 08:34 and 08:44, with a Tool Values screenshot selecting September 10 08:44. No new scenario selected from the observed move. Third case remains incomplete pending price observations/audit; two of five accepted, no score or duration inferred.
+
+### Case 3 — checkpoint prices received, 2026-10-05
+
+Student reports P0 7626.50, P5 7605.50, P15 7602.50; verbatim preserved in the brief. Instructor calculations yield -21.00 and -24.00 points versus P0, and -3.00 between checkpoints. Do not count instructor arithmetic as a new independent student assessment. All values remain reported; no screenshot supplied this turn.
+
+Both prices below P0 cannot validate unactivated scenario A; neither A nor B activates at actual +0.4%. Request the previously specified September 10 08:44 Tool Values capture and a short student lesson about in-line releases and price reactions. No claim of uninterrupted decline or demonstrated cause. Case 3 incomplete; two of five accepted, no score/duration inferred.
+
+### Case 3 — screenshot and takeaway accepted, 2026-10-05
+
+Screenshot saved as journal/screenshots/week-03/2026-10-05_MESU26_2026-09-10_post-event-cursor-0844.png verifies completed September 10 08:44 Last 7602.50. P0/P5 remain reported. Student correctly states that a release matching expectations does not guarantee an unchanged price; verbatim response and detailed evidence retained in 03-MES.md. Accept third guided case after coaching; neither A nor B activates, no causal or profitable-strategy claim. Three of five cases accepted; weekly score and study duration remain pending.
+
+Next proposed case: MGC around the September 16, 2026 FOMC decision. Official meeting calendar https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm checked October 5 confirms September 15–16 meeting. Only calendar consulted, not decision, projections or gold reaction; date chosen by event type, not outcome. First ask whether student already knows the decision or gold reaction, before accessing outcome data or setting an unseen replay exercise. Contract, release time, prior information, expectations and scenarios still to prepare. MGC/MCL cases, expiry-price comparison, quiz and study journal remain pending.
+
+### Case 4 — prior knowledge checked and MGC setup assigned, 2026-10-05
+
+Student answers "Non" to knowing the Fed decision or gold reaction. New instructor draft 04-MGC.md records this self-report. Official September calendar confirms 14:00 event and 14:30 press conference; outcome documents not opened. Compare MGCV26 and MGCZ26 September 15 total daily volumes on the same basis, choose the more active candidate, prepare its one-minute September 16 replay paused at 13:55 New York with Continuous Contract=None, and submit volumes/choice/screenshot/settings confirmation together. Keep future bars hidden until the final plan is saved. No actual decision, post-event prices or frozen scenarios yet. Three of five cases remain accepted; no score or duration inferred.
+
+### Case 4 — contract choice accepted and real-yield preparation, 2026-10-05
+
+Student reports MGCV26 48,717 and MGCZ26 432,481 and selects December for higher volume; accept the comparison, approximately 8.9 times (instructor calculation). "configuré" records general setup completion by self-report. No screenshot received; request the already specified pre-event image alongside the next exercise, while progressing conceptual work.
+
+Original July 29 Fed statement supplies prior target range 3.50%–3.75%; do not substitute it for September expectations or a long-term real yield. Introduce approximate real yield with matched horizons and gold's opportunity cost. Fictional ten-year exercise: nominal 4.0% then 4.5%, expected inflation fixed at 2.5%; calculate both real yields and explain conditional pressure on gold. Details and sources in 04-MGC.md. September actual and gold reaction not retrieved, scenarios/freeze pending; three of five accepted, no score/duration inferred.
+
+### Case 4 — real yields accepted and scenario preparation, 2026-10-05
+
+Student correctly computes approximate real yields 1.5% then 2.0%, and explains conditional pressure on gold through reduced relative attractiveness. Verbatim answer preserved in 04-MGC.md; correct 2.5$ to 2.5% as an isolated unit typo. No repeat exercise needed.
+
+ADMISI September 16 preview anticipates +25 bp. Publication metadata precedes the decision (07:36:53 New York) but modification is September 17; no original snapshot verified. Adopt as attributed pedagogical benchmark with limitation, not verified consensus. Prior range plus 25 bp implies 3.75%–4.00%, instructor calculation. Propose A actual change >25 bp, B <25 bp, neither at exactly +25 bp; student mechanisms/directions and complete invalidations pending. Exact comparison must be relative to expected change, not just the previous rate. Screenshot still pending; keep replay at 13:55. No actual decision/outcome accessed, no freeze, weekly score or duration inferred; three of five accepted.
+
+### Case 4 — first scenarios and targeted clarification, 2026-10-06
+
+Original submission preserved in 04-MGC.md. A predicts both prices below P0 and recognizes either equal checkpoint invalidates; add either above checkpoint. Redirect mechanism from equities to gold via conditional real yields. B predicts both above, but shifts its threshold from < +25 bp to < -25 bp, and invalidates only when both below. Clarify 0 bp already qualifies for B; restore either below/equal invalidation. "Résultat égalitaire" is ambiguous between release and price equality; keep those distinct and do not silently adopt an extra bearish scenario at the expected release.
+
+Instructor supplies complete two-scenario scaffold, without freezing or claiming independent mastery. Fictional check: unchanged policy (0 bp), P5 above P0, P15 equal P0; identify activation and whether prediction holds. Pending setup screenshot requested alongside answer. Actual historical decision/reaction still unretrieved; three of five cases accepted, no score/duration inferred.
+
+### Case 4 — setup screenshot accepted, 2026-10-06
+
+Saved journal/screenshots/week-03/2026-10-06_MGCZ26_2026-09-16_replay-paused-1355.png. Confirms MGCZ26-COMEX[M] 1 Min #6, paused Single Chart / Standard Replay, September 16 13:55 start with Start Paused; latest chart time 13:55:04. Partial bar Last 4389.7 is not P0. New York/None remain self-reported, not screenshot-verified. No repeat capture needed.
+
+Activation/evaluation concept still pending because image supplies no revised answer to the clarification recorded below. Targeted fictional recheck: expected +25 bp, actual +50 bp, P5 < P0, P15 = P0; ask activation and evaluation separately. Actual historical decision/reaction not retrieved, freeze pending; three of five cases accepted, no score or study time inferred.
+
+### Case 4 — activation confused with evaluation, 2026-10-06
+
+Student says neither scenario activates because P15 equals P0, and asks for the replay date. Verbatim response preserved in 04-MGC.md. Clarify fictional unchanged policy (0 bp < +25 bp benchmark) activates B, whose price prediction is then contradicted by the equal P15. Price equality cannot determine release activation. Restate September 16, 2026 13:55 New York on MGCZ26 and keep replay paused. No conceptual acceptance/freeze yet; setup screenshot pending, actual decision/reaction unretrieved; three of five accepted, no score/duration inferred.
+
+### Case 4 — recheck accepted, rules frozen and actual revealed, 2026-10-06
+
+Student correctly identifies A activation from fictional +50 bp, and price invalidation from P15=P0. Verbatim in 04-MGC.md. Accept distinction after coaching; mechanism/B complements remain instructor-assisted. Clock-verified freeze decision October 6 21:05:56 Toronto / October 7 01:05:56 UTC. Final operational v1 saved to 04-MGC.pre-event-v1.md before retrieving actual decision, with original attempts and provenance limitations intact.
+
+Original Fed September 16 14:00 EDT statement then retrieved: +25 bp to 3.75%–4.00%, exactly the attributed benchmark. Neither A nor B activates; no price-direction or flat-market conclusion implied. Prices still unknown. Next grouped task: advance MGCZ26 replay to 14:15, record completed bars 13:59/14:04/14:14, calculate signed changes against P0 in USD per troy ounce, send 14:14 Tool Values screenshot. Three of five cases remain accepted, no score/duration inferred.
+
+### Case 4 — prices received, subtraction corrected, 2026-10-06
+
+Student reports P0 4402.9, P5 4366.6 and P15 4352.2. Correctly computes -36.3 for P5-P0; second submitted result -52.2 is incorrect, corrected by instructor to -50.7 USD/troy ounce. Preserve original answer in the brief; units supplied by instructor. Process advice: add signed difference back to P0 as a check, no repetitive arithmetic quiz assigned.
+
+Saved journal/screenshots/week-03/2026-10-06_MGCZ26_2026-09-16_post-event-cursor-1414.png verifies completed September 16 14:14 Last 4352.2. P0/P5 remain reported. Latest replay timestamp 14:15:59 does not alter selected 14:14 measurement; no replacement screenshot needed. Neither scenario activated at +25 bp; decline alone cannot validate A or demonstrate real-yield repricing. Ask student whether the fall proves real yields rose and which data would test that explanation. Causal-evidence audit pending; three of five cases accepted, no score/duration inferred.
+
+### Case 4 — causal caution accepted and case completed, 2026-10-06
+
+Student correctly rejects proof of rising real yields from the gold decline and proposes nominal rate minus inflation. Original answer preserved in 04-MGC.md. Instructor specifies expected inflation, identical horizons and before/after event timestamps; joint movement still would not prove sole causality. These refinements are instructor assistance, not independently demonstrated data selection; no actual real-yield series retrieved. Accept fourth guided brief after remediation with arithmetic/provenance/evidence limitations preserved. Four of five cases accepted; no Week 3 pass, score or study duration inferred.
+
+Next proposed MCL case: September 16, 2026 EIA Weekly Petroleum Status Report at 10:30 New York. Official schedule https://www.eia.gov/petroleum/supply/weekly/schedule.php checked October 6 gives Wednesdays at 10:30 Eastern, with no exception that week. September 10 holiday exception pertains to the preceding week. Selected by event type/date before inspecting oil outcome. Ask prior knowledge of the inventory figures or oil reaction first. No actual September 16 EIA report or MCL prices retrieved. Known same-day 14:00 FOMC decision is later than this proposed morning observation; no unseen Fed outcome claim for the student.
+
+### Case 5 — prior knowledge checked and setup assigned, 2026-10-06
+
+Student answers "Non" to prior knowledge of the selected inventory figures/oil reaction. Recorded in new instructor draft 05-MCL.md. Grouped task: September 15 daily volumes for MCLV26/MCLX26 on the same basis, choose higher-volume candidate, prepare one-minute September 16 replay paused 10:25 New York with None/Start Paused, and submit volumes/choice/setup screenshot. No September 16 EIA actual or oil reaction accessed; no scenarios/freeze yet. Known later FOMC outcome is excluded from the morning's information set. Four of five cases accepted; expiry-price comparison remains separate from volumes; no score/duration inferred.
+
+### Case 5 — setup accepted and expiry-price comparison assigned, 2026-10-06
+
+Student reports MCLV26 195,360 versus MCLX26 37,586 and selects October; accept reasoning, approximately 5.2 times (instructor calculation), volumes not independently verified. Explicit New York/None confirmation recorded. Screenshot journal/screenshots/week-03/2026-10-06_MCLV26_2026-09-16_replay-paused-1025.png verifies MCLV26-NYMEX[M] 1 Min #9 paused before announcement, correct September 16 10:25 setup and latest timestamp 10:24:59. Selected completed 10:24 Last 103.19 is verified, not event P0.
+
+Next finish outstanding expiry-price recheck: retrieve MCLX26 completed September 16 10:24 Last from same 10:25 paused replay, send its value/capture, calculate November minus October and classify only those two expiries. Match minute and price measure; no November price inferred. Keep event replay before 10:30; actual EIA and post-event prices remain unretrieved. Four of five accepted, no score/duration inferred.
+
+### Case 5 — expiry comparison accepted and zero-change design proposed, 2026-10-06
+
+Student reads November 98.29, computes November-minus-October -4.9 and correctly identifies backwardation because October is higher. Screenshot verifies September 16 10:24 MCLX26 Last 98.29; saved path and original answer in 05-MCL.md. Accept outstanding expiry-price comparison after remediation. Unit refined to USD/barrel and classification limited to those expiries.
+
+Original September 10 EIA highlights verified: prior week ended September 4, crude excluding SPR down 0.4 million barrels to 424.1 million, rounded. September 16 expectation remains unverified; do not fabricate consensus or substitute prior change for expectations. Instructor proposes zero weekly change as explicit teaching threshold (A build >0, B draw <0, neither exactly0), not a market forecast or surprise study. Student direction/mechanism/checkpoints/invalidation drafts pending. Retrieval exposure limits documented in brief; no target actual change or oil reaction seen. Four of five cases accepted, no freeze/score/duration inferred.
