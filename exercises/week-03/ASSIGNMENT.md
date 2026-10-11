@@ -1,6 +1,6 @@
 # Week 3 — Fundamental Context Assignment
 
-**Status:** Parts A/B reviewed after coaching; three MES and one MGC guided Part C cases accepted after coaching/remediation as of 2026-10-06 (4/5 cases); event annotation and expiry-price comparison recheck accepted; arithmetic evidence and corrections preserved; MCL, quiz and study journal pending; no weekly score
+**Status:** Passed after guided remediation — 82/100, 2026-10-10. Parts A/B, all five Part C briefs, event annotation, expiry comparison, quiz review, reflection and Study Log reviewed. Original errors, instructor contributions and evidence limits preserved; see the final assessment in REVIEW.md.
 **Prerequisite:** Week 2 passed after remediation, 85/100, 2026-09-24  
 **Workload:** Four evening sessions of two hours; extend if evidence takes longer  
 **Operating mode:** Observation only; no order submission required
@@ -87,11 +87,13 @@ On one case, document the contract, data mode and chart time zone; locate the re
 9. What should you do if you discover you used future information in a historical brief?
 10. Can five successful directional scenarios establish a profitable setup? Explain.
 
-**Student answers:** Pending.
+**Student answers:** Questions 1–5 first attempt and assessment preserved in [REVIEW.md](REVIEW.md), 2026-10-07, with targeted remediation on 2026-10-09. Interest-rate expectation and refinery-flow mechanisms accepted after coaching; concrete unscheduled example and final rates-to-equity link supplied by instructor, not independently demonstrated. Questions 6–10 reviewed on 2026-10-10; strict invalidation, net-profitability and final calendar-spread rechecks accepted after remediation. Quiz review complete with original errors and instructor assistance retained in the final weekly assessment.
 
 ## Review and assessment
 
 Record actual study sessions in the existing Study Log. Retain initial attempts and corrections. End with the strongest concept, recurring error, remaining uncertainty and next practice target.
+
+**Completion update (2026-10-10):** Weekly reflection received and preserved in [REVIEW.md](REVIEW.md). Student reports clearer concepts and identifies contract/expiry selection as a practice priority. Instructor proposes a specific pre-measurement identity/time check; this is a coached practice target, not evidence of completed practice. Study Log A23:I29 verified read-only: seven records, 360 minutes. Final decision: pass after guided remediation, 82/100.
 
 | Component | Points | Evidence |
 |---|---:|---|

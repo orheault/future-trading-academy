@@ -1,8 +1,8 @@
 # Progress Log
 
-**Current week:** 3 — fundamental context in progress  
+**Current week:** 4 — Sierra Chart basics, ready to begin  
 **Current phase:** I — Futures Foundations  
-**Status:** Week 3 three MES and one MGC guided cases accepted after coaching (4/5) as of 2026-10-06; expiry-price comparison accepted; MCL prior report verified, expectation unknown, zero-change teaching threshold proposed and student scenarios pending; quiz and journal pending; Week 2 passed after remediation (85/100); Week 1 validation pending
+**Status:** Week 3 passed after guided remediation, 82/100 (2026-10-10); five briefs, annotation, quiz review, reflection and seven Study Log blocks verified, 360 recorded minutes; ready for Week 4 platform training; Week 1 validation and Foundation Gate remain pending; Week 2 passed after remediation (85/100)
 **Current gate:** Foundation Gate at Week 4  
 **Primary instrument:** MES  
 **Active setup:** None — research only  
@@ -59,7 +59,7 @@
 |---:|---|---|---:|---|---|
 | 1 | Risk, ecosystem, futures purpose | Review pending |  | Not verified | Written answers found in notes/week-01-futures-foundations.md; no formal pass recorded |
 | 2 | Contract specifications and math | Passed after remediation | 85 | Yes | Final assessment 2026-09-24 in exercises/week-02/REVIEW.md; 10/10 final critical calculation items correct after remediation; nine Study Log blocks total 460 recorded minutes; retain arithmetic and execution-cost checks |
-| 3 | Fundamental context | In progress |  | No | Parts A/B and four guided cases accepted with coaching/remediation (3 MES, 1 MGC; 4/5); event annotation and expiry-price comparison accepted; evidence/process limits documented; MCL, quiz and journal pending; retain arithmetic/invalidation/timestamp transfer practice; observation only |
+| 3 | Fundamental context | Passed after remediation | 82 | Yes, guided evidence | Five briefs, annotation, quiz corrections, reflection and Study Log A23:I29 reviewed; 360 recorded minutes; retain source-cutoff, contract-identity, unit and strict-invalidation checks; no independent strategy validation |
 | 4 | Sierra basics + Foundation Gate | Not started |  | No |  |
 | 5 | Price structure | Not started |  | No |  |
 | 6 | Auction Market Theory | Not started |  | No |  |
@@ -120,6 +120,7 @@ After each week, record:
 
 | Date | Decision | Evidence | Effect |
 |---|---|---|---|
+| 2026-10-10 | Week 3 passed after guided remediation, 82/100 | Five accepted briefs, annotation and expiry comparison, preserved quiz attempts and targeted rechecks, reflection, seven Study Log blocks totaling 360 minutes | Ready for Week 4 platform training; Week 1 validation and Foundation Gate remain separate; pass alone does not authorize live trading or demonstrate setup profitability |
 | 2026-09-24 | Week 2 passed after remediation, 85/100 | Corrected critical calculations and fresh rechecks, platform preparation screenshots, quiz remediation, section 7 notes, weekly reflection and completed Study Log identifiers/dates/durations | Ready for Week 3 theory and observation; Week 1 review and Foundation Gate remain separate; no change to execution permissions |
 | 2026-09-07 | Resume Week 2 coaching | Student reports reaching Week 2; Week 1 written answers available | Prepare contract-math lessons and 25 exercises; do not infer a Week 1 pass or platform readiness |
 | 2026-08-23 | Course language set to English | Professional terminology and source availability | Materials and journal use English |

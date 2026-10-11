@@ -1,6 +1,6 @@
 # Session Plan — Week 3, MCL Brief 05
 
-**Status:** Fifth guided case accepted after coaching/correction on 2026-10-07; student verdict and process lesson accepted; frozen rules and evidence limitations preserved
+**Status:** Student A/B/C price rules accepted; operational rules frozen v1 on 2026-10-07 before actual-release retrieval and post-event prices; mechanism caveats instructor-assisted; observation pending
 **Template:** Adapted from templates/SESSION-PLAN.md
 **Preparation date:** 2026-10-06 America/Toronto
 **Historical date:** 2026-09-16
@@ -127,52 +127,3 @@ No target September 16 EIA actual or post-event MCL prices retrieved at freeze. 
 ## Post-session audit
 
 Pending actual data, signed comparisons, activation/evaluation, evidence, causal limits and student process lesson. Four of five guided cases remain accepted; this draft supplies no additional completion, score or study duration.
-
-### Official release retrieved after freeze — 2026-10-07
-
-Saved 05-MCL.pre-event-v1.md before target release retrieval. Frozen SHA256: 6EF47226E712B40AFA94A6111726DB5D1C0E494B3704C1BCB6C466969131A75A. Preserve snapshot unchanged.
-
-[Original September 16 EIA highlights](https://www.eia.gov/petroleum/supply/weekly/archive/2026/2026_09_16/pdf/highlights.pdf) report commercial crude excluding SPR decreased 0.6 million barrels during the week ending September 11, to 423.4 million barrels. Use the stated -0.6 headline weekly change under frozen rounding convention, rather than subtracting independently rounded stock levels. Negative change activates B; A and C do not activate. Forecast still unknown; this is not a surprise-versus-consensus conclusion. B requires P5>P0 AND P15>P0 and is contradicted by either below/equal checkpoint.
-
-No post-event MCL price values retrieved. Student may now advance selected MCLV26 September 16 replay to 10:45 New York, pause, and report completed 10:29 P0, 10:34 P5, 10:44 P15 plus signed differences P5-P0 and P15-P0 in USD/barrel. Request one Tool Values screenshot selecting September 16 10:44. No scenario changes from observed prices. Four of five guided cases accepted; no weekly score or study duration inferred.
-
-### Wrong-expiry post-event submission — 2026-10-07
-
-Student submission, numbers and wording preserved (formatting normalized):
-
-> P0: 98.32 $
-> P5: 98.46 $
-> P15: 98.06 $
-> P5 − P0: 98.46 - 98.32 = 0.14 $
-> P15 − P0: 98.06 - 98.32 = -0.26 $
-
-Both subtractions are correct; refine units to USD/barrel. Screenshot saved as [November post-event readings, wrong expiry for this brief](../../journal/screenshots/week-03/2026-10-07_MCLX26_2026-09-16_wrong-contract-post-event-1044.png). Title/replay show MCLX26-NYMEX[M], November 2026, 1 Min #10. Selected September 16 10:44 Open 98.22, High 98.26, Low 98.03, Last 98.06, Volume 65. Thus P15 is verified for November, not for the selected October contract. P0/P5 are reported, not independently verified, and recorded with the November submission pending correction.
-
-Do not substitute these prices into MCLV26's frozen audit or change the selected expiry after observing outcomes. Retain as separate incidental observation. Student has now seen the related November reaction; record that exposure honestly while preserving the original pre-observation October hypotheses. No accusation of hindsight fitting or fresh unseen-test claim. Activation B remains fixed by the release, but price evaluation on MCLV26 remains pending.
-
-Corrective task only: open MCLV26-NYMEX 1 Min (October, original chart #9), advance its September 16 replay to 10:45 New York and pause, retrieve all three completed-bar Last values at 10:29/10:34/10:44 and redo signed differences; send a screenshot with both MCLV26 identity and selected 10:44 Last visible. Do not redo volume choice, macro preparation or scenario construction. Four of five cases accepted, no score or study duration inferred.
-
-### Corrected October readings verified — 2026-10-07
-
-Student submission, verbatim (formatting normalized):
-
-> P0: 103.27$
-> P5: 103.32$
-> P15: 102.90$
-> P5 − P0: 103.32 - 103.27 = 0.05$
-> P15 − P0: 102.90 - 103.27= -0.37$
-
-Both subtractions correct; state units as USD/barrel rather than dollar P&L. Saved [October 10:44 verification](../../journal/screenshots/week-03/2026-10-07_MCLV26_2026-09-16_post-event-cursor-1044.png). Correct MCLV26-NYMEX[M] 1 Min #9, September 16 10:44:00, Open 103.07, High 103.11, Low 102.86, Last 102.90, Volume 493. Latest chart timestamp 10:44:59, replay start/pause display 10:45. P15 is screenshot-verified; P0/P5 remain student-reported against the requested 10:29/10:34 protocol. Previous November submission retained separately, not overwritten. No repeat image needed.
-
-Instructor assessment: B activates from negative inventory change. P5>P0 but P15<P0, so strict B price prediction is contradicted by P15; A and C remain inactive. P15-P5=-0.42 USD/barrel is an instructor-derived endpoint difference, not a continuously declining path. No causal attribution inferred.
-
-Next student audit: state whether activated B's prediction held and which checkpoint establishes the verdict; identify a concrete pre-measurement check to prevent reading the wrong expiry again. This is final case reflection, not a request to redo preparation or screenshots. Case acceptance pending that student audit; four of five accepted, no score or duration inferred.
-
-### Final student audit accepted — 2026-10-07
-
-Student response, verbatim:
-
-> 1. Sa prévision est contredite, du au P15 étant inférieure à P0
-> 2. Je vérifierais le nom du contrat dans la fenetre de la chart avant d'y travailler
-
-Correct verdict: activated B's strict conjunction is contradicted by P15<P0 despite P5>P0. Student proposes a concrete identity check before working; instructor refines to full symbol/expiry rather than instrument family alone. Accept the fifth guided brief after coaching and wrong-expiry correction. Preserve original November observation, pre-outcome snapshot, unknown consensus/zero-threshold design, rounding convention, reported P0/P5 and verified P15. No independent strategy validation or causal claim inferred. Five of five briefs accepted; quiz, actual study log and weekly reflection remain pending before a Week 3 score/pass.

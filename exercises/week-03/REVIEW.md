@@ -454,3 +454,158 @@ Next finish outstanding expiry-price recheck: retrieve MCLX26 completed Septembe
 Student reads November 98.29, computes November-minus-October -4.9 and correctly identifies backwardation because October is higher. Screenshot verifies September 16 10:24 MCLX26 Last 98.29; saved path and original answer in 05-MCL.md. Accept outstanding expiry-price comparison after remediation. Unit refined to USD/barrel and classification limited to those expiries.
 
 Original September 10 EIA highlights verified: prior week ended September 4, crude excluding SPR down 0.4 million barrels to 424.1 million, rounded. September 16 expectation remains unverified; do not fabricate consensus or substitute prior change for expectations. Instructor proposes zero weekly change as explicit teaching threshold (A build >0, B draw <0, neither exactly0), not a market forecast or surprise study. Student direction/mechanism/checkpoints/invalidation drafts pending. Retrieval exposure limits documented in brief; no target actual change or oil reaction seen. Four of five cases accepted, no freeze/score/duration inferred.
+
+### Case 5 — three rules accepted, frozen, actual revealed, 2026-10-07
+
+Student supplies correct two-checkpoint conditions and OR/equality complements for A-down, B-up and an additional zero-stock-change path P5<P0/P15>P0. Original text preserved in 05-MCL.md. Rename student's "Aucun" to C; preserve the new prospective prediction instead of silently deleting it. Its path is testable but not an established consequence of unchanged stocks or defined trend continuation. Instructor refines stock-flow mechanism: inventory change alone does not establish changed supply flow; imports/exports/refinery inputs also matter. No extra repeated invalidation quiz needed.
+
+Final operational rules saved to 05-MCL.pre-event-v1.md before target outcome retrieval, clock decision October 7 12:14:34 Toronto / 16:14:34 UTC. Expectation remains unknown; threshold is published zero change at EIA highlights precision. Source/exposure limits retained. Original EIA September 16 highlights subsequently verified: -0.6 million barrels, activating B. No consensus surprise inferred. Price observations remain pending; next task 10:45 paused replay with completed 10:29/10:34/10:44 Last, signed USD/barrel differences and 10:44 screenshot. Four of five cases accepted, no score/duration inferred.
+
+### Case 5 — correct arithmetic, wrong contract, 2026-10-07
+
+Student reports 98.32/98.46/98.06 and correctly calculates +0.14/-0.26; original answer retained. Screenshot identifies MCLX26 November #10, not frozen MCLV26 October #9, and verifies only November 10:44 Last 98.06. Saved journal/screenshots/week-03/2026-10-07_MCLX26_2026-09-16_wrong-contract-post-event-1044.png. Do not validate October scenario using November data or retrofit contract choice. Related-contract outcome exposure now disclosed; original rules predate it and stay unchanged.
+
+Request only corrected October three Last values/differences and a 10:44 screenshot showing MCLV26. No repeat volume/macro/scenario exercise. B activation unchanged; October price evaluation and audit remain pending. Four of five cases accepted, no score/duration inferred.
+
+### Case 5 — October correction accepted, final audit pending, 2026-10-07
+
+Student reports MCLV26 P0 103.27, P5 103.32, P15 102.90 and correctly computes +0.05/-0.37. Saved journal/screenshots/week-03/2026-10-07_MCLV26_2026-09-16_post-event-cursor-1044.png verifies correct contract #9, date and 10:44 Last 102.90; P0/P5 remain reported. Accept correction, preserve wrong-expiry history and frozen rules. No further screenshot work required.
+
+Instructor evaluates activated B as contradicted by P15 below P0 despite P5 above; student verdict not yet supplied. Ask final brief audit: verdict with decisive checkpoint, and a concrete identity check to prevent wrong-expiry readings. Four of five accepted until audit received; no score/study duration inferred.
+
+### Case 5 — final audit accepted; five briefs complete, 2026-10-07
+
+Student correctly identifies P15<P0 as contradicting B's prediction, and proposes checking the contract name in the chart window before working. Verbatim response retained in 05-MCL.md; reinforce full symbol and expiry. Accept fifth guided case after corrections, retaining the source/measurement/exposure limits, original mistakes and pre-outcome rules. Five of five cases now accepted (3 MES, 1 MGC, 1 MCL); event annotation and expiry-price recheck also accepted. Directional accuracy is not the passing criterion. No weekly grade or pass yet.
+
+Next: Part D quiz, presented in two groups of five to limit load. First group asks scheduled/unscheduled catalysts with examples; consensus versus previous and information priced in; competing employment effects on equities; real yield and matched horizons; inventory draws versus final demand. Request answers in student's own words, initially without consulting prior corrections, to assess retention. No quiz answers/scores inferred. Actual study sessions and final weekly reflection still to collect; do not infer duration from chat timestamps.
+
+### Quiz questions 1–5 — first attempt reviewed, 2026-10-07
+
+Student answers, verbatim:
+
+> 1. Un catalyseur programmé est une annonce pouvant impacter les marchées, connue à l'heure précise d'avancce. Tandis qu'un catalyseur imprévu est une annonce non prévue, par exemple une nouvelle pouvant influencer les marchées.
+> 2. Le consensus est le chiffre auquel les experts anticipe. Le chiffre précédent les le vrai chiffre, non pas une anticipation.
+> 3. La création d'emplois peut soutenir les actions, car les investisseurs peuvent anticiper une meilleur économie, une plus grande dépense des ménages, pouvant soutenir les entreprises. L'effet contraire survient lorsqu'il y a une diminution de la création d'emplois. Il faut nuancer le fait que la création d'emplois peut être diminué, mais supérieure à 0.
+> 4. Le rendement réel est le rendement après inflation. On le calcul en prenant sur une même période le taux nominal - le taux inflation. Si on n'utilise pas des horizons comparables, les données peuvent être faussées.
+> 5. Plusieurs variable entre en ligne de compte. Par example, une diminution des rafineries peuvent entrainer une augmentation du prix du gaz, tout en gardant une consommation équivalente. Un autre exemple peut-être une diminution du pétrol brut transporté par les cargo.
+
+Assessment and instructor refinements:
+
+- Q1: Correct timing distinction in principle; scheduled timing is known, not the outcome. Concrete example of each still missing.
+- Q2: Distinguishes forecast from prior publication, but previous is a prior-period published estimate subject to revision, not immutable truth. Consensus summarizes surveyed forecasts; it is not all information reflected in prices. Instructor supplies these refinements, including other announcement components, rate outlook and positioning. Do not credit as independently demonstrated.
+- Q3: Correct growth/household spending/business channel and valid positive-but-slowing employment nuance. Missing the competing rate/valuation channel for the SAME strong employment surprise; a weaker announcement is a different scenario. Explain conditional higher-for-longer rates/fewer cuts and equity valuation/financing pressure; recheck application.
+- Q4: Real yield concept and matched horizons accepted. Subtraction is approximate. For forward-looking analysis use expected inflation over the matching horizon; realized inflation is relevant to an ex-post calculation. These distinctions are instructor refinements.
+- Q5: Multiple drivers recognized. Reduced cargo arrivals could mean reduced US crude imports and help explain a draw without greater end demand, all else equal. Reduced refinery throughput instead reduces crude withdrawals and tends to raise crude inventories relative to the unchanged-throughput case; refined gasoline supply and prices are distinct. Wording about fewer refineries is ambiguous, so clarify with a controlled flow example.
+
+Sources for feedback: Federal Reserve monetary transmission, https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm ; EIA inventory balance, https://www.eia.gov/finance/markets/crudeoil/balance.php .
+
+Next targeted recheck: (1) one concrete scheduled and one unscheduled catalyst; (2) explain how the same stronger-than-expected employment release could weigh on equities through rate expectations; (3) direction of the crude-inventory effect when refinery crude inputs fall and production/imports/exports are unchanged. No final quiz or weekly score. Questions 6–10, actual study log and reflection remain pending. Guided cases remain accepted.
+
+### Quiz questions 1–5 — targeted remediation, 2026-10-09
+
+Student answers, verbatim:
+
+> 1. Un catalyseur programmé est un meeting ou divulgation du PCI. Un catalyseur imprévu peut etre une nouvelle non prévue.
+> 2. Avec un marché d'emplois élevé, cela peut indiquer une économie très active pouvant mener à une surchauffe inflationniste. Les investisseurs pourrait anticiper un hausse des taux d'intérêt pour limiter cette pression inflationniste.
+> 3. Considérant le scenario, cela peu avoir comme effet d'augmenter le stock de brut, car moins de brut ce fait processer tandis que la produciton de brut reste identique.
+
+Assessment: scheduled release example accepted, interpreting PCI as a likely CPI/IPC typo. Unscheduled answer still repeats the definition rather than giving a concrete example; instructor supplies an unexpected pipeline outage as a hypothetical example. Student correctly explains the conditional employment/inflation/rate-expectations channel after coaching, but does not explicitly finish the link to equity financing costs/valuations; instructor completes it and retains the need to compare a release with expectations. Refinery-flow direction and reasoning accepted after coaching. Precision: reduced throughput raises inventories relative to the unchanged-throughput baseline; without initial net flows, it need not cause an absolute weekly build (could reduce a draw).
+
+Proceed to questions 6–10 rather than repeating the same recheck. This is guided remediation, not an unassisted perfect response. For Q6 request explicit formulas separating spot/futures basis from the near/far calendar spread to avoid conflating the two. No numeric score, weekly pass, study duration or new independent mastery inferred. Study log and weekly reflection remain pending.
+
+### Quiz questions 6–10 — first attempt reviewed, 2026-10-10
+
+Student answers, verbatim:
+
+> 6. Ce sont la différence entre deux périodes pour un même contrat. par exemple. Donc  prix du future proche  - future lointain. Contango est le prix plus lointain plus élevé que le spot ou échéance proche. Le backwardation est le contraire, prix proche plus élevé que lointain.
+> 7. Un scénario est réfutable, lorsqu'une des hypothèses est contredite. Par exemple, si je dis que les investisseurs anticipes une hausse du MES lors du dévoilement du CPI. Le prix en P5 et P15 sera comparé à P0. Le scénario est P5 plus petit que P0 et P15 est plus petit que P0. Ce scénario est réfuté lorsque P5 plus grand que P0 ou P15 plus grand que P0.
+> 8. Plusieurs variables entre en ligne de compte. Chaque investisseurs possède leurs propre raison de vendre ou d'acheter au même temps que l'annonce.
+> 9. J'arrête cette analyse, car une valeur n'est pas valide.
+> 10. Non, il n'y a pas de corrélation entre le nombre de scénario étudié et la rentabilité d'une méthode de trading.
+
+Assessment and feedback:
+
+- Q6: Contango/backwardation directions accepted. Near-minus-far is a valid explicit calendar-spread convention (negative in contango, positive in backwardation between these maturities). These are two contracts with different maturities observed at the same time, not the same contract at two times. Spot/futures basis formula omitted. Instructor supplies explicit working convention basis = spot minus futures; conventions vary and must be labeled. This differs from the previously used far-minus-near spread convention, but is not intrinsically wrong.
+- Q7: Measurable checkpoints and OR connective retained, but verbal bullish expectation conflicts with bearish inequalities. Equality omitted again: for a strict bearish prediction P5<P0 AND P15<P0, contradiction is P5>=P0 OR P15>=P0. Recurring issue despite prior remediation; require targeted recheck. Price observations test the specified price prediction, not investors' unobserved beliefs.
+- Q8: Accepted at this level: concurrent factors and heterogeneous motivations mean temporal sequence is insufficient causal proof. This does not establish that the announcement had no effect.
+- Q9: Correct instinct to stop using the contaminated analysis as valid evidence, but incomplete repair process. Instructor supplies: retain original, identify unavailable-at-the-time information and its availability date, label contamination, reconstruct using contemporaneously available information, and label reconstruction as retrospective because outcome knowledge cannot be undone. Use a new unseen case for prospective testing. No unassisted full-credit claim.
+- Q10: Correct no, unsupported reason. Do not endorse a claim of zero correlation between sample count and profitability. More appropriately sampled observations improve estimation, but neither sample count nor directional accuracy establishes positive net expectancy. Need explicit entry/exit/risk rules, gains/losses, costs and execution assumptions, larger representative samples and testing on data not used to select rules. Hypothetical performance has hindsight/liquidity/slippage limitations; five direction observations are not five measured trades.
+
+Sources: CFTC Futures Glossary, https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/CFTCGlossary/index.htm ; NFA hypothetical-performance guidance, https://www.nfa.futures.org/rulebooksql/rules.aspx?RuleID=9025&Section=9 .
+
+Targeted fictional recheck assigned: (1) spot 70, nearby 71, deferred 73, all in USD/barrel at the same instant: basis spot-minus-nearby, spread nearby-minus-deferred and curve classification; (2) bearish strict two-checkpoint prediction with P0=100, P5=99, P15=100: verdict and reason; (3) ten hypothetical trades, eight +10 USD gross and two -50 USD gross, total costs 20 USD: net result and lesson about win rate. These are exercises, not observed market data or trading recommendations. No weekly score/pass. Five guided cases remain accepted; study log and reflection outstanding.
+
+### Quiz targeted recheck — two accepted, spread operands pending, 2026-10-10
+
+Student answers, verbatim:
+
+> 1. base comptant − proche = 70 - 71 = -1, l’**écart proche − lointain**  = -1 - 73 = -74. La stucture est contango
+> 2. La condition n'est pas respecté, car P15 = P0, ce qui contredit le scénario.
+> 3. gagnant - perdant = (8\*10) - (2 \* 50) = -20, -20-20 = -40 $ résultat net. Un nombre supérieure de trade gagnant versus un nombre de trade perdant ne garantie pas une stratégie profitable.
+
+Assessment: basis result -1 and contango classification correct. Calendar spread incorrectly substitutes the computed basis (-1) for the nearby contract price (71); this is an operand-selection error, not an arithmetic error in -1 minus 73. Instructor correction: 71-73=-2 USD/barrel, calculated independently of basis. Equality invalidation accepted after remediation: P15=P0 fails a strictly bearish prediction. Net result -40 USD and explanation that a higher winner count does not ensure profitability accepted after remediation; 80% winners still loses in this fictional example.
+
+One focused transfer check remains: at the same instant a nearby future is 75 USD/barrel and a deferred future is 72 USD/barrel; write nearby-minus-deferred using the two contract prices, calculate it and name the structure. No need to repeat the accepted equality/profitability exercises. Weekly score remains pending, as do study records and reflection. Original answers and coached versus independently supplied elements preserved.
+
+### Quiz final spread recheck accepted, 2026-10-10
+
+Student answer, verbatim:
+
+> proche − lointain = 75 - 72 = 3$/baril, structure backwardation
+
+Correct operand selection, subtraction, unit and curve classification between the two given maturities. Accept this transfer check after remediation. Quiz review and targeted rechecks complete; original errors, partial first answers and instructor-supplied refinements remain part of the evidence, not an unassisted perfect score. All five guided cases remain accepted. No final weekly score/pass until remaining submissions are reviewed.
+
+Next request: actual Week 3 study sessions (date, duration, topic/work completed; explicitly label estimates or unknowns rather than fabricate precision) and a short weekly reflection covering strongest concept, recurring error, remaining uncertainty and next practice target. Do not infer study time from chat timestamps. No workbook entries made without student-provided records.
+
+### Weekly reflection received, 2026-10-10
+
+Student reflection, verbatim:
+
+> Bilan personnel:
+>
+> 1. Établir un scénario hypothétique avant la divulgation d'une annonce.
+> 2. Ne pas me tromper dans la sélection du bon contrat dans sierra chart de la bonne échéance.
+> 3. Les concepts sont assez clairs.
+> 4. Me pratiquer d'avantage dans sierra chart.
+
+Accept reflection as submitted. Student identifies pre-announcement scenario construction as a strength and contract/expiry selection as the recurring operational concern. No remaining uncertainty self-reported; subjective clarity is not proof of independent mastery and does not erase the original quiz errors or guided corrections. Practice intention is broad. Instructor makes it concrete: before each replay price measurement check full symbol, expiry, date and selected bar time, then record the completed bar's Last. This is a suggested coached routine, not a new completed exercise or additional compulsory assessment.
+
+Only actual Week 3 study-session records remain to collect before final assessment: date, duration and work completed, with estimates/unknowns explicitly labeled. No duration inferred or workbook entries invented. No weekly score/pass assigned in this turn.
+
+## Final Week 3 assessment — 2026-10-10
+
+**Decision: Pass after guided remediation — 82/100.** Apply the existing curriculum weights and 80/100 threshold. This is an instructor assessment of the complete learning process, including original errors and assistance, not a percentage of independently correct first attempts or a trading-performance score.
+
+### Study Log verification
+
+Read journal/trading-journal.xlsx without modifying or exporting it. Study Log headers A5:I5 identify Study ID, Date, Week, Topic, Completed, Key Learning, Open Question, Evidence Link and Duration (min). Rows A23:I29 contain seven unique IDs W03-1 through W03-7 with dates, topics, completion status and numeric durations. All seven have learning notes and evidence references; references are text rather than precise clickable evidence locations. Open Question is blank throughout, consistent with the student's self-report of no remaining uncertainty, not proof of mastery.
+
+| Study ID | Date | Recorded topic | Minutes |
+|---|---|---|---:|
+| W03-1 | 2026-09-28 | Parts A and B | 60 |
+| W03-2 | 2026-09-29 | MES case 1 | 60 |
+| W03-3 | 2026-09-30 | MES case 2 | 60 |
+| W03-4 | 2026-10-05 | MES case 3 | 30 |
+| W03-5 | 2026-10-06 | MGC case 4 | 60 |
+| W03-6 | 2026-10-07 | MCL case 5 | 30 |
+| W03-7 | 2026-10-10 | Quiz | 60 |
+| **Total** | | | **360** |
+
+Total is six student-reported recorded hours, not independently verified attendance or an inference from chat timestamps. Do not add hours to reach the nominal eight-hour plan or reinterpret these blocks as every interaction across the study period. Journal is sufficient for assessment. Weekly reflection is preserved above.
+
+### Weighted rubric
+
+| Component | Score | Evidence and rationale |
+|---|---:|---|
+| Concept comprehension | 18/25 | Distinguishes observations from causal claims and can construct/test conditional price scenarios after coaching. Initial and recurrent gaps involved units, consensus versus previous, employment/rate channels, crude/refined flows, strict inequalities, basis versus spread and directional success versus net profit. Targeted equality, net-result and calendar-spread checks ultimately correct. Some refinements and examples remained instructor-supplied. |
+| Practical lab | 29/35 | All five guided cases (3 MES, 1 MGC, 1 MCL), event annotation and expiry comparison accepted. Corrected contract selection, chart timestamps and measurements demonstrated. Deduct for wrong-expiry observation, repeated annotation/checkpoint corrections and arithmetic errors. Some P0/P5 values remain student-reported rather than screenshot-verified. No executed trades inferred. |
+| Deliverable quality | 17/20 | Five traceable briefs, sources, screenshots, scenario criteria and separate outcome audits retained. Missing expectations explicitly labeled, pedagogical benchmarks qualified. Case 2 lacks a pre-event freeze; source modifications and prior outcome exposure limit prospective evidence. Instructor scaffolding and preserved corrections support guided learning, not five pristine independent trials. |
+| Journal completeness | 9/10 | Seven identified, dated blocks with durations, topics, learning notes and traceable references; 360 minutes recorded. Reflection covers the requested points. Evidence links and next-practice intention could be more specific; the concrete checking routine was supplied by the coach. |
+| Process and risk compliance | 9/10 | Observation scope maintained in reviewed evidence, original hypotheses/errors retained, contamination and missing-data limits disclosed, wrong-expiry observations corrected without retroactively changing the selected contract. Deduct for preventable identity/time-control errors. Wrong-contract observation is not evidence of a wrong-contract trade. No critical safety failure is evidenced; screenshots are not a full account audit. |
+| **Total** | **82/100** | **Pass after remediation, above the 80/100 threshold.** |
+
+### Scope of the pass and next step
+
+All five final guided briefs distinguish facts, expectations (including unknown), scenarios and invalidation. Corrections and outcome audits remain separate from original/frozen hypotheses; no retrospective rewriting is represented as a prospective success. Disclosed source/freeze/exposure limits restrict the evidential claim and are reflected in scoring, rather than erased. This pass validates the week's coached learning deliverables; it does not establish independent mastery of every concept or a profitable setup.
+
+Proceed to Week 4 Sierra Chart basics and the Foundation Gate. First priority is the student's identified weakness: full symbol/expiry, date, time zone and selected-bar time before measurement, with explicit units and equality-aware invalidation. Week 4 will address platform safety, replay, simulation and activity-log reconciliation under its own checks. Formal Week 1 validation remains pending for the Foundation Gate. No Foundation Gate pass or live-trading permission is implied by this assessment.
